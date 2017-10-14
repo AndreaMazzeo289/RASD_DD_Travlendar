@@ -15,9 +15,9 @@
 ##### 3. Specific requirements
  * External Interface Requirements 
    * User Interfaces :heavy_check_mark:
-   * Hardware Interfaces :question:
-   * Software Interfaces (API :question:)
-   * Communication Interfaces :question:
+   * Hardware Interfaces :x:
+   * Software Interfaces :heavy_check_mark:
+   * Communication Interfaces :x:
  * Functional Requirements :soon:
  * Performance Requirements
  * Design constraints
@@ -27,9 +27,9 @@
  * Software System Attributes
    * Reliability :heavy_check_mark:
    * Availability :heavy_check_mark: 
-   * Security
-   * Maintanability
-   * Portability
+   * Security :heavy_check_mark:
+   * Maintanability :heavy_check_mark:
+   * Portability :heavy_check_mark:
 ##### 4. Formal analysis using alloy
 ##### 5. Effort spent
 ##### 6. References
