@@ -3,30 +3,30 @@
 ##### 1. Introduction
  * Purpose :heavy_check_mark:
  * Scope :heavy_check_mark:
- * Definition, Acronyms, Abbrevations
+ * Definition, Acronyms, Abbrevations 
  * Revision history
  * Reference Documents
  * Document Structure
 ##### 2. Overall description
- * Product prospective
- * Product functions
- * User characteristic
- * Assumption, dependencies and constraints
+ * Product prospective :heavy_check_mark:
+ * Product functions :heavy_check_mark:
+ * User characteristic :heavy_check_mark:
+ * Assumption, dependencies and constraints :heavy_check_mark: 
 ##### 3. Specific requirements
- * External Interface Requirements
+ * External Interface Requirements 
    * User Interfaces :heavy_check_mark:
-   * Hardware Interfaces
-   * Software Interfaces
-   * Communication Interfaces
- * Functional Requirements :heavy_check_mark:
+   * Hardware Interfaces :question:
+   * Software Interfaces (API :question:)
+   * Communication Interfaces :question:
+ * Functional Requirements :soon:
  * Performance Requirements
  * Design constraints
    * Standards compliance
    * Hardware limitations
    * Any other constraint
  * Software System Attributes
-   * Reliability
-   * Availability
+   * Reliability :heavy_check_mark:
+   * Availability :heavy_check_mark: 
    * Security
    * Maintanability
    * Portability
