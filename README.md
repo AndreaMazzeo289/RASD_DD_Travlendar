@@ -21,8 +21,8 @@
  * Functional Requirements :soon:
  * Performance Requirements
  * Design constraints
-   * Standards compliance
-   * Hardware limitations
+   * Standards compliance :heavy_check_mark:
+   * Hardware limitations :heavy_check_mark:
    * Any other constraint
  * Software System Attributes
    * Reliability :heavy_check_mark:
