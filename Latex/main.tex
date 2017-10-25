@@ -1,5 +1,7 @@
 \input{commandsFile}
-
+\usepackage{graphicx}
+\usepackage{subcaption}
+\renewcommand\textfraction{.1}
 \begin{document}
 
 %TITLE PAGE
@@ -79,6 +81,18 @@
 {\color{Blue}{\section{Specific Requirements}}}
 \label{sect:requirements}
 \input{Files/requirements}
+
+%------------------------------------------------------------------------------------------------------------------------------------------------
+\clearpage
+{\color{Blue}{\section{Scenarios}}}
+\label{sect:scenarios}
+\input{Files/scenarios}
+
+%------------------------------------------------------------------------------------------------------------------------------------------------
+\clearpage
+{\color{Blue}{\section{UML modelling}}}
+\label{sect:UMLmodelling}
+\input{Files/UMLmodelling}
 
 %------------------------------------------------------------------------------------------------------------------------------------------------
 \clearpage
