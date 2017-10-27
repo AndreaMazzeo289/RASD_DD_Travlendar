@@ -1,6 +1,5 @@
 \subsection{Product perspective} 
-The product we will provide is an application distributed for any kind of device that supports Android as operative system. This application will immediately be useble as soon as you install it on a device.
-It will not have any internal interface for administration but it will be only user based.
+The product we will develope is a software application  for smartphone implementing Android as operative system. The app will require the user to be registered in order to access to all the funtionalities. It will also need a stable internet connection in order to connect to different external system providing information about weather and transport means. The application runs locally on the smartphone but users data are also stored in the the system database.
 
 \begin{figure}[!h]
 	\centering
@@ -10,33 +9,23 @@ It will not have any internal interface for administration but it will be only u
 (UML e stateCharts)
 
 \subsection{Product functions}
-This application aims to provide a smart calendar, which schedules the best organization, taking account of your personal appointments, which you inserted in the calendar. The computed schedule depends on some preferences that you filled out and you can modify them when you want.
+This application aims to provide a smart and user-friendly appointment-manager system, which allows the user to create and keep track of several appointment on a personal virtual calendar. Plus, the app is able to schedule the travels to reach the different appointment destinations on time in the fastest and most confortable way, according to the preferences expressed by the user and the different weather and public transport condition. Finally, the application offers the possibility of easily buy tickets for the different trips, and to view them when needed.
 \subsection{User characteristics}
-We recommend the application to a person who wants to organize easily his time in the best way. He will be able to benefit from this service in a very simple way because Travlendar+ requires only basic knowledge of a simple calendar. After registering an account, the application is ready to handle his commitments, so scheduling the best organization.
-\subsection{Domain Assumption and Dependencies}
+We recommend this application to a everyone who wants to easily manage his appointments without any loss of time. The app is designed to be as user friendly as possible, so the user is not forced to have a specific knowledge of the system to be able to benefit of the service. It can be used by a business man with a calendar full of work meetings or just by an ordinary student to schedule his study breaks. Furthermore, the possibility of buying tickets suits even simple travelers who need to manage their trips.
+\subsection{Dependencies}
 \begin{itemize}
-	\item For any day user can create unlimited number of events.
-	\item User has only one calendar.
-	\item There isn’t any dependence between users.
-	\item User can choose among some alternative travel proposals.
-	\item If an event is overlapping another one, the user must select a choice from the choices proposed.
-	\item User can delete an event.
-	\item User can modify an event already created.
-	\item User can change the scheduling proposed.
-	\item User can select in which preferences the scheduling based on.
-	\item Notification of best proposal will be shown.
-	\item Notification of any problem that occurs will be shown.
+	\The application requires a stable internet connection, by Wi-Fi or mobile network.
+	\The application makes use of GPS localization to access to the user position.
+	\Based on the user choice, the application may require a connection to an existing Facebook or Google account.
+	\The application makes use of external APIs to achieve information about maps, public transport and weather condition.
+	\The application depends entirely on the ATM and Trenord public transport Payment Service for everything concerning the tickets purchase.
 \end{itemize}
 \subsection{Constrains}
-Travlender+ requires:
 \begin{itemize}
-	\item Internet connection enabled on own device
-	\item GPS available on own device
-	\item Login during the first access
-	\item Initially registration with an account
-	\item Android device
-	\item Milano as the default city
-	\item 30 Mb(?) of storage memory available on own devise to be installed
+	\item The application requires the user to be registred and logged into the system to work properly.
+	\item The application works only on smartphones that implement Android version 4.0.3 or later.
+	\item The application is in beta version and works only inside the urban area of Milan.
+	\item 30 Mb(?) of storage memory must be available on the device in order to correctly install the application.
 \end{itemize}
 
 
