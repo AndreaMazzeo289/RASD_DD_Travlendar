@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (MiKTeX 2.9.6350 64-bit) (preloaded format=pdflatex 2017.10.23)  25 OCT 2017 23:48
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (MiKTeX 2.9.6350 64-bit) (preloaded format=pdflatex 2017.10.23)  26 OCT 2017 13:08
 entering extended mode
 **./main.tex
 (main.tex
@@ -1211,7 +1211,7 @@ LaTeX Font Info:    Try loading font information for U+msb on input line 16.
 ("C:\Program Files\MiKTeX 2.9\tex\latex\amsfonts\umsb.fd"
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 )
-<Images/PolimiLogo.png, id=369, 405.515pt x 125.46875pt>
+<Images/PolimiLogo.png, id=382, 405.515pt x 125.46875pt>
 <use Images/PolimiLogo.png> <use Images/PolimiLogo.png>
 File: Images/PolimiLogo.png Graphic file (type png)
 
@@ -1245,11 +1245,11 @@ LaTeX Font Info:    Font shape `OMS/ptm/m/n' in size <10> not available
 [2]
 LaTeX Font Info:    Font shape `T1/ptm/bx/n' in size <14.4> not available
 (Font)              Font shape `T1/ptm/b/n' tried instead on input line 60.
- (main.toc [3])
+ (main.toc [3] [4])
 \tf@toc=\write5
 \openout5 = `main.toc'.
 
- [4] (main.lof)
+ [5] (main.lof)
 \tf@lof=\write6
 \openout6 = `main.lof'.
 
@@ -1257,41 +1257,41 @@ LaTeX Font Info:    Font shape `T1/ptm/bx/n' in size <14.4> not available
 \tf@lot=\write7
 \openout7 = `main.lot'.
 
- [5] (Files/introduction.tex
+ [6] (Files/introduction.tex
 LaTeX Font Info:    Font shape `T1/ptm/bx/n' in size <12> not available
 (Font)              Font shape `T1/ptm/b/n' tried instead on input line 1.
 
-[6
+[7
 
-]) [7] (Files/overview.tex
-<Images/ClassDiagram.png, id=526, 1067.48813pt x 584.1825pt>
+]) [8] (Files/overview.tex
+<Images/ClassDiagram.png, id=554, 1067.48813pt x 584.1825pt>
 File: Images/ClassDiagram.png Graphic file (type png)
 
 <use Images/ClassDiagram.png>
 Package pdftex.def Info: Images/ClassDiagram.png used on input line 7.
 (pdftex.def)             Requested size: 546.29153pt x 298.96313pt.
- [8
+ [9
 
- <./Images/ClassDiagram.png>]) [9]
+ <./Images/ClassDiagram.png>]) [10]
 (Files/requirements.tex
-<Images/Mockup/LogPage.png, id=538, 310.15875pt x 551.05875pt>
+<Images/Mockup/LogPage.png, id=566, 310.15875pt x 551.05875pt>
 File: Images/Mockup/LogPage.png Graphic file (type png)
 
 <use Images/Mockup/LogPage.png>
 Package pdftex.def Info: Images/Mockup/LogPage.png used on input line 7.
 (pdftex.def)             Requested size: 147.95294pt x 262.86554pt.
 
-<Images/Mockup/GoogleConnectionPopup.png, id=539, 310.15875pt x 551.05875pt>
+<Images/Mockup/GoogleConnectionPopup.png, id=567, 310.15875pt x 551.05875pt>
 File: Images/Mockup/GoogleConnectionPopup.png Graphic file (type png)
 
 <use Images/Mockup/GoogleConnectionPopup.png>
 Package pdftex.def Info: Images/Mockup/GoogleConnectionPopup.png used on input 
 line 11.
 (pdftex.def)             Requested size: 147.95294pt x 262.86554pt.
- [10
+ [11
 
  <./Images/Mockup/LogPage.png> <./Images/Mockup/GoogleConnectionPopup.png>]
-<Images/Mockup/RegistrationForm.png, id=546, 310.15875pt x 551.05875pt>
+<Images/Mockup/RegistrationForm.png, id=574, 310.15875pt x 551.05875pt>
 File: Images/Mockup/RegistrationForm.png Graphic file (type png)
 
 <use Images/Mockup/RegistrationForm.png>
@@ -1299,49 +1299,49 @@ Package pdftex.def Info: Images/Mockup/RegistrationForm.png used on input line
 19.
 (pdftex.def)             Requested size: 147.95294pt x 262.86554pt.
 
-<Images/Mockup/Base.png, id=547, 310.15875pt x 551.05875pt>
+<Images/Mockup/Base.png, id=575, 310.15875pt x 551.05875pt>
 File: Images/Mockup/Base.png Graphic file (type png)
 
 <use Images/Mockup/Base.png>
 Package pdftex.def Info: Images/Mockup/Base.png used on input line 23.
 (pdftex.def)             Requested size: 147.95294pt x 262.86554pt.
- [11
+ [12
 
  <./Images/Mockup/RegistrationForm.png> <./Images/Mockup/Base.png>]
-<Images/Mockup/Base3.png, id=554, 310.15875pt x 551.05875pt>
+<Images/Mockup/Base3.png, id=582, 310.15875pt x 551.05875pt>
 File: Images/Mockup/Base3.png Graphic file (type png)
 
 <use Images/Mockup/Base3.png>
 Package pdftex.def Info: Images/Mockup/Base3.png used on input line 31.
 (pdftex.def)             Requested size: 147.95294pt x 262.86554pt.
 
-<Images/Mockup/Base2.png, id=555, 310.15875pt x 551.05875pt>
+<Images/Mockup/Base2.png, id=583, 310.15875pt x 551.05875pt>
 File: Images/Mockup/Base2.png Graphic file (type png)
 
 <use Images/Mockup/Base2.png>
 Package pdftex.def Info: Images/Mockup/Base2.png used on input line 35.
 (pdftex.def)             Requested size: 147.95294pt x 262.86554pt.
- [12
+ [13
 
  <./Images/Mockup/Base3.png> <./Images/Mockup/Base2.png>] <Images/Mockup/LeftPa
-nel.png, id=562, 310.15875pt x 551.05875pt>
+nel.png, id=591, 310.15875pt x 551.05875pt>
 File: Images/Mockup/LeftPanel.png Graphic file (type png)
 
 <use Images/Mockup/LeftPanel.png>
 Package pdftex.def Info: Images/Mockup/LeftPanel.png used on input line 43.
 (pdftex.def)             Requested size: 147.95294pt x 262.86554pt.
 
-<Images/Mockup/PreferencesManager.png, id=563, 310.15875pt x 551.05875pt>
+<Images/Mockup/PreferencesManager.png, id=592, 310.15875pt x 551.05875pt>
 File: Images/Mockup/PreferencesManager.png Graphic file (type png)
 
 <use Images/Mockup/PreferencesManager.png>
 Package pdftex.def Info: Images/Mockup/PreferencesManager.png used on input lin
 e 47.
 (pdftex.def)             Requested size: 147.95294pt x 262.86554pt.
- [13
+ [14
 
  <./Images/Mockup/LeftPanel.png> <./Images/Mockup/PreferencesManager.png>]
-<Images/Mockup/transportMeansOpt.png, id=571, 310.15875pt x 551.05875pt>
+<Images/Mockup/transportMeansOpt.png, id=599, 310.15875pt x 551.05875pt>
 File: Images/Mockup/transportMeansOpt.png Graphic file (type png)
 
 <use Images/Mockup/transportMeansOpt.png>
@@ -1349,18 +1349,18 @@ Package pdftex.def Info: Images/Mockup/transportMeansOpt.png used on input line
  55.
 (pdftex.def)             Requested size: 147.95294pt x 262.86554pt.
 
-<Images/Mockup/TravelPreferences.png, id=572, 310.15875pt x 551.05875pt>
+<Images/Mockup/TravelPreferences.png, id=600, 310.15875pt x 551.05875pt>
 File: Images/Mockup/TravelPreferences.png Graphic file (type png)
 
 <use Images/Mockup/TravelPreferences.png>
 Package pdftex.def Info: Images/Mockup/TravelPreferences.png used on input line
  59.
 (pdftex.def)             Requested size: 147.95294pt x 262.86554pt.
- [14
+ [15
 
  <./Images/Mockup/transportMeansOpt.png> <./Images/Mockup/TravelPreferences.png
 >]
-<Images/Mockup/DailySchedule.png, id=579, 310.15875pt x 551.05875pt>
+<Images/Mockup/DailySchedule.png, id=607, 310.15875pt x 551.05875pt>
 File: Images/Mockup/DailySchedule.png Graphic file (type png)
 
 <use Images/Mockup/DailySchedule.png>
@@ -1368,32 +1368,32 @@ Package pdftex.def Info: Images/Mockup/DailySchedule.png used on input line 67.
 
 (pdftex.def)             Requested size: 147.95294pt x 262.86554pt.
 
-<Images/Mockup/EventCreator.png, id=580, 310.15875pt x 551.05875pt>
+<Images/Mockup/EventCreator.png, id=608, 310.15875pt x 551.05875pt>
 File: Images/Mockup/EventCreator.png Graphic file (type png)
 
 <use Images/Mockup/EventCreator.png>
 Package pdftex.def Info: Images/Mockup/EventCreator.png used on input line 71.
 (pdftex.def)             Requested size: 147.95294pt x 262.86554pt.
- [15
+ [16
 
  <./Images/Mockup/DailySchedule.png> <./Images/Mockup/EventCreator.png>]
-<Images/Mockup/AlarmCreator.png, id=587, 310.15875pt x 551.05875pt>
+<Images/Mockup/AlarmCreator.png, id=615, 310.15875pt x 551.05875pt>
 File: Images/Mockup/AlarmCreator.png Graphic file (type png)
 
 <use Images/Mockup/AlarmCreator.png>
 Package pdftex.def Info: Images/Mockup/AlarmCreator.png used on input line 79.
 (pdftex.def)             Requested size: 147.95294pt x 262.86554pt.
 
-<Images/Mockup/OptionPanel.png, id=588, 310.15875pt x 551.05875pt>
+<Images/Mockup/OptionPanel.png, id=616, 310.15875pt x 551.05875pt>
 File: Images/Mockup/OptionPanel.png Graphic file (type png)
 
 <use Images/Mockup/OptionPanel.png>
 Package pdftex.def Info: Images/Mockup/OptionPanel.png used on input line 83.
 (pdftex.def)             Requested size: 147.95294pt x 262.86554pt.
- [16
+ [17
 
  <./Images/Mockup/AlarmCreator.png> <./Images/Mockup/OptionPanel.png>]
-<Images/Mockup/BaseModificaDelete.png, id=595, 310.15875pt x 551.05875pt>
+<Images/Mockup/BaseModificaDelete.png, id=623, 310.15875pt x 551.05875pt>
 File: Images/Mockup/BaseModificaDelete.png Graphic file (type png)
 
 <use Images/Mockup/BaseModificaDelete.png>
@@ -1401,18 +1401,18 @@ Package pdftex.def Info: Images/Mockup/BaseModificaDelete.png used on input lin
 e 91.
 (pdftex.def)             Requested size: 147.95294pt x 262.86554pt.
 
-<Images/Mockup/EditAppointment.png, id=596, 310.15875pt x 551.05875pt>
+<Images/Mockup/EditAppointment.png, id=624, 310.15875pt x 551.05875pt>
 File: Images/Mockup/EditAppointment.png Graphic file (type png)
 
 <use Images/Mockup/EditAppointment.png>
 Package pdftex.def Info: Images/Mockup/EditAppointment.png used on input line 9
 5.
 (pdftex.def)             Requested size: 147.95294pt x 262.86554pt.
- [17
+ [18
 
  <./Images/Mockup/BaseModificaDelete.png> <./Images/Mockup/EditAppointment.png>
 ]
-<Images/Mockup/AlarmEditDelete.png, id=603, 310.15875pt x 551.05875pt>
+<Images/Mockup/AlarmEditDelete.png, id=631, 310.15875pt x 551.05875pt>
 File: Images/Mockup/AlarmEditDelete.png Graphic file (type png)
 
 <use Images/Mockup/AlarmEditDelete.png>
@@ -1420,52 +1420,50 @@ Package pdftex.def Info: Images/Mockup/AlarmEditDelete.png used on input line 1
 03.
 (pdftex.def)             Requested size: 147.95294pt x 262.86554pt.
 
-<Images/Mockup/TravelDetailsTrain.png, id=604, 310.15875pt x 551.05875pt>
+<Images/Mockup/TravelDetailsTrain.png, id=632, 310.15875pt x 551.05875pt>
 File: Images/Mockup/TravelDetailsTrain.png Graphic file (type png)
 
 <use Images/Mockup/TravelDetailsTrain.png>
 Package pdftex.def Info: Images/Mockup/TravelDetailsTrain.png used on input lin
 e 107.
 (pdftex.def)             Requested size: 147.95294pt x 262.86554pt.
- [18
+ [19
 
  <./Images/Mockup/AlarmEditDelete.png> <./Images/Mockup/TravelDetailsTrain.png>
 ]
-<Images/Mockup/MovementDetails.png, id=611, 310.15875pt x 551.05875pt>
+<Images/Mockup/MovementDetails.png, id=640, 310.15875pt x 551.05875pt>
 File: Images/Mockup/MovementDetails.png Graphic file (type png)
 
 <use Images/Mockup/MovementDetails.png>
 Package pdftex.def Info: Images/Mockup/MovementDetails.png used on input line 1
 15.
 (pdftex.def)             Requested size: 147.95294pt x 262.86554pt.
- [19
+ [20
 
- <./Images/Mockup/MovementDetails.png>] [20
+ <./Images/Mockup/MovementDetails.png>] [21
 
-] [21] [22] [23]) [24] (Files/scenarios.tex) [25
+] [22] [23] [24]) [25] (Files/scenarios.tex) [26
 
 ]
 (Files/UMLmodelling.tex
-<Images/UseCaseDiagram.png, id=650, 921.4425pt x 759.58781pt>
+<Images/UseCaseDiagram.png, id=678, 921.4425pt x 736.25063pt>
 File: Images/UseCaseDiagram.png Graphic file (type png)
 
 <use Images/UseCaseDiagram.png>
 Package pdftex.def Info: Images/UseCaseDiagram.png used on input line 4.
-(pdftex.def)             Requested size: 546.29153pt x 450.33191pt.
- [26
+(pdftex.def)             Requested size: 546.29153pt x 436.49614pt.
+ [27
 
- <./Images/UseCaseDiagram.png>] [27
+ <./Images/UseCaseDiagram.png>] [28
 
 ]
-[28
-
-] [29
+[29
 
 ] [30
 
-] [31] [32
+] [31
 
-] [33
+] [32] [33
 
 ] [34
 
@@ -1481,163 +1479,155 @@ Package pdftex.def Info: Images/UseCaseDiagram.png used on input line 4.
 
 ] [40
 
+] [41
+
 ]
-<Images/SequenceDiagram/GuestRegistration.png, id=808, 635.37375pt x 2198.2125p
-t>
+<Images/SequenceDiagram/GuestRegistration.png, id=839, 476.53032pt x 1648.65938
+pt>
 File: Images/SequenceDiagram/GuestRegistration.png Graphic file (type png)
  <use Images/SequenceDiagram/GuestRegistration.png>
 Package pdftex.def Info: Images/SequenceDiagram/GuestRegistration.png used on i
-nput line 479.
-(pdftex.def)             Requested size: 170.71654pt x 590.6407pt.
- [41
+nput line 495.
+(pdftex.def)             Requested size: 170.71654pt x 590.62393pt.
+ [42
 
  <./Images/SequenceDiagram/GuestRegistration.png>]
-<Images/SequenceDiagram/UserLogin.png, id=815, 443.6575pt x 822.07124pt>
+<Images/SequenceDiagram/UserLogin.png, id=846, 332.74312pt x 616.55344pt>
 File: Images/SequenceDiagram/UserLogin.png Graphic file (type png)
 
 <use Images/SequenceDiagram/UserLogin.png>
 Package pdftex.def Info: Images/SequenceDiagram/UserLogin.png used on input lin
-e 488.
-(pdftex.def)             Requested size: 170.71654pt x 316.31651pt.
- [42
+e 504.
+(pdftex.def)             Requested size: 170.71654pt x 316.32906pt.
+ [43
 
  <./Images/SequenceDiagram/UserLogin.png>]
-<Images/SequenceDiagram/AppointmentCreation.png, id=822, 475.02469pt x 2006.245
+<Images/SequenceDiagram/AppointmentCreation.png, id=854, 475.02469pt x 2006.245
 32pt>
 File: Images/SequenceDiagram/AppointmentCreation.png Graphic file (type png)
  <use Images/SequenceDiagram/AppointmentCreation.png>
 Package pdftex.def Info: Images/SequenceDiagram/AppointmentCreation.png used on
- input line 497.
+ input line 513.
 (pdftex.def)             Requested size: 147.95294pt x 624.86845pt.
- [43
+ [44
 
  <./Images/SequenceDiagram/AppointmentCreation.png>]
-<Images/SequenceDiagram/AppointementEditing.png, id=830, 398.99063pt x 1010.274
+<Images/SequenceDiagram/AppointementEditing.png, id=861, 398.99063pt x 1010.274
 37pt>
 File: Images/SequenceDiagram/AppointementEditing.png Graphic file (type png)
  <use Images/SequenceDiagram/AppointementEditing.png>
 Package pdftex.def Info: Images/SequenceDiagram/AppointementEditing.png used on
- input line 506.
+ input line 522.
 (pdftex.def)             Requested size: 170.71654pt x 432.26675pt.
- [44
+ [45
 
  <./Images/SequenceDiagram/AppointementEditing.png>]
-<Images/SequenceDiagram/AppointmentDeletion.png, id=837, 368.1253pt x 711.4078p
+<Images/SequenceDiagram/AppointmentDeletion.png, id=868, 368.1253pt x 711.4078p
 t>
 File: Images/SequenceDiagram/AppointmentDeletion.png Graphic file (type png)
  <use Images/SequenceDiagram/AppointmentDeletion.png>
 Package pdftex.def Info: Images/SequenceDiagram/AppointmentDeletion.png used on
- input line 515.
+ input line 531.
 (pdftex.def)             Requested size: 170.71654pt x 329.92194pt.
- [45
+ [46
 
  <./Images/SequenceDiagram/AppointmentDeletion.png>]
-<Images/SequenceDiagram/AlertEditing.png, id=844, 352.31625pt x 599.23875pt>
+<Images/SequenceDiagram/AlertEditing.png, id=875, 352.31625pt x 599.23875pt>
 File: Images/SequenceDiagram/AlertEditing.png Graphic file (type png)
 
 <use Images/SequenceDiagram/AlertEditing.png>
 Package pdftex.def Info: Images/SequenceDiagram/AlertEditing.png used on input 
-line 524.
+line 540.
 (pdftex.def)             Requested size: 170.71654pt x 290.36528pt.
- [46
+ [47
 
  <./Images/SequenceDiagram/AlertEditing.png>]
-<Images/SequenceDiagram/AlertDeletion.png, id=851, 331.2375pt x 491.58656pt>
+<Images/SequenceDiagram/AlertDeletion.png, id=882, 331.2375pt x 491.58656pt>
 File: Images/SequenceDiagram/AlertDeletion.png Graphic file (type png)
 
 <use Images/SequenceDiagram/AlertDeletion.png>
 Package pdftex.def Info: Images/SequenceDiagram/AlertDeletion.png used on input
- line 533.
+ line 549.
 (pdftex.def)             Requested size: 170.71654pt x 253.35368pt.
- [47
+ [48
 
  <./Images/SequenceDiagram/AlertDeletion.png>]
-<Images/SequenceDiagram/SchedulingAndViewTravels.png, id=858, 962.59625pt x 330
-4.345pt>
+<Images/SequenceDiagram/SchedulingAndViewTravels.png, id=889, 721.94719pt x 247
+8.25874pt>
 File: Images/SequenceDiagram/SchedulingAndViewTravels.png Graphic file (type pn
 g)
  <use Images/SequenceDiagram/SchedulingAndViewTravels.png>
 Package pdftex.def Info: Images/SequenceDiagram/SchedulingAndViewTravels.png us
-ed on input line 542.
-(pdftex.def)             Requested size: 170.71654pt x 585.98334pt.
- [48
+ed on input line 558.
+(pdftex.def)             Requested size: 170.71654pt x 586.02115pt.
+ [49
 
  <./Images/SequenceDiagram/SchedulingAndViewTravels.png>]
-<Images/SequenceDiagram/ViewAndEditMovements.png, id=865, 1040.88875pt x 1834.8
-55pt>
+<Images/SequenceDiagram/ViewAndEditMovements.png, id=897, 780.66656pt x 1376.14
+125pt>
 File: Images/SequenceDiagram/ViewAndEditMovements.png Graphic file (type png)
  <use Images/SequenceDiagram/ViewAndEditMovements.png>
 Package pdftex.def Info: Images/SequenceDiagram/ViewAndEditMovements.png used o
-n input line 551.
-(pdftex.def)             Requested size: 170.71654pt x 300.91817pt.
- [49
+n input line 567.
+(pdftex.def)             Requested size: 170.71654pt x 300.92517pt.
+ [50
 
  <./Images/SequenceDiagram/ViewAndEditMovements.png>]
-<Images/ActivityDiagram/CreateAppointment.png, id=873, 277.78781pt x 545.03625p
-t>
+<Images/ActivityDiagram/CreateAppointment.png, id=904, 278.54062pt x 548.0475pt
+>
 File: Images/ActivityDiagram/CreateAppointment.png Graphic file (type png)
  <use Images/ActivityDiagram/CreateAppointment.png>
 Package pdftex.def Info: Images/ActivityDiagram/CreateAppointment.png used on i
-nput line 561.
-(pdftex.def)             Requested size: 227.62206pt x 446.6166pt.
- [50
+nput line 577.
+(pdftex.def)             Requested size: 227.62206pt x 447.87152pt.
+ [51
 
  <./Images/ActivityDiagram/CreateAppointment.png>]
-<Images/ActivityDiagram/EditEvent.png, id=880, 251.43938pt x 482.55281pt>
+<Images/ActivityDiagram/EditEvent.png, id=911, 251.43938pt x 482.55281pt>
 File: Images/ActivityDiagram/EditEvent.png Graphic file (type png)
 
 <use Images/ActivityDiagram/EditEvent.png>
 Package pdftex.def Info: Images/ActivityDiagram/EditEvent.png used on input lin
-e 570.
+e 586.
 (pdftex.def)             Requested size: 227.62206pt x 436.84116pt.
- [51
+ [52
 
  <./Images/ActivityDiagram/EditEvent.png>]
-<Images/ActivityDiagram/DeleteEvent.png, id=887, 190.46156pt x 277.78781pt>
+<Images/ActivityDiagram/DeleteEvent.png, id=918, 190.46156pt x 277.78781pt>
 File: Images/ActivityDiagram/DeleteEvent.png Graphic file (type png)
 
 <use Images/ActivityDiagram/DeleteEvent.png>
 Package pdftex.def Info: Images/ActivityDiagram/DeleteEvent.png used on input l
-ine 579.
+ine 595.
 (pdftex.def)             Requested size: 182.09833pt x 265.60086pt.
 
-<Images/ActivityDiagram/CreateAlert.png, id=888, 447.17062pt x 459.21562pt>
+<Images/ActivityDiagram/CreateAlert.png, id=919, 447.17062pt x 459.21562pt>
 File: Images/ActivityDiagram/CreateAlert.png Graphic file (type png)
 
 <use Images/ActivityDiagram/CreateAlert.png>
 Package pdftex.def Info: Images/ActivityDiagram/CreateAlert.png used on input l
-ine 587.
+ine 603.
 (pdftex.def)             Requested size: 227.62206pt x 233.75542pt.
- [52
+ [53
 
  <./Images/ActivityDiagram/DeleteEvent.png> <./Images/ActivityDiagram/CreateAle
 rt.png>]
-<Images/ActivityDiagram/EditTravel.png, id=897, 294.34969pt x 492.33937pt>
+<Images/ActivityDiagram/EditTravel.png, id=928, 694.84593pt x 569.12625pt>
 File: Images/ActivityDiagram/EditTravel.png Graphic file (type png)
 
 <use Images/ActivityDiagram/EditTravel.png>
 Package pdftex.def Info: Images/ActivityDiagram/EditTravel.png used on input li
-ne 596.
-(pdftex.def)             Requested size: 227.62206pt x 380.73268pt.
- [53
-
- <./Images/ActivityDiagram/EditTravel.png>]
-<Images/ActivityDiagram/MovementAlternative.png, id=904, 286.82156pt x 539.0137
-5pt>
-File: Images/ActivityDiagram/MovementAlternative.png Graphic file (type png)
- <use Images/ActivityDiagram/MovementAlternative.png>
-Package pdftex.def Info: Images/ActivityDiagram/MovementAlternative.png used on
- input line 605.
-(pdftex.def)             Requested size: 227.62206pt x 427.77367pt.
+ne 612.
+(pdftex.def)             Requested size: 455.24411pt x 372.87161pt.
  [54
 
- <./Images/ActivityDiagram/MovementAlternative.png>]
-<Images/ActivityDiagram/BuyTicket.png, id=911, 355.3275pt x 507.39563pt>
+ <./Images/ActivityDiagram/EditTravel.png>]
+<Images/ActivityDiagram/BuyTicket.png, id=935, 355.3275pt x 507.39563pt>
 File: Images/ActivityDiagram/BuyTicket.png Graphic file (type png)
 
 <use Images/ActivityDiagram/BuyTicket.png>
 Package pdftex.def Info: Images/ActivityDiagram/BuyTicket.png used on input lin
-e 614.
+e 621.
 (pdftex.def)             Requested size: 227.62206pt x 325.04178pt.
  [55
 
@@ -1731,25 +1721,19 @@ Overfull \hbox (44.07993pt too wide) in paragraph at lines 190--191
 
 ) [59] (Files/effort.tex) [60
 
-] (main.bbl
-
-LaTeX Warning: Empty `thebibliography' environment on input line 3.
-
-) [61
-
 ]
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 120.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 120.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 113.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 113.
  (main.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 120.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 120.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 113.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 113.
 Package rerunfilecheck Info: File `main.out' has not changed.
-(rerunfilecheck)             Checksum: AC577E2CEF7A5733BE61CC06EC1E22BF;7047.
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 120.
+(rerunfilecheck)             Checksum: 0FA27A2E54A4BE0387D9045746D0E774;7294.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 113.
  ) 
 Here is how much of TeX's memory you used:
- 22457 strings out of 493323
- 404250 string characters out of 3139065
+ 22464 strings out of 493323
+ 404200 string characters out of 3139065
  493038 words of memory out of 3000000
  25043 multiletter control sequences out of 15000+200000
  33448 words of font info for 55 fonts, out of 3000000 for 9000
@@ -1759,9 +1743,9 @@ Here is how much of TeX's memory you used:
 KTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Program Files/MiKTeX 2.9
 /fonts/type1/urw/times/utmb8a.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/urw/
 times/utmr8a.pfb>
-Output written on main.pdf (61 pages, 1693809 bytes).
+Output written on main.pdf (60 pages, 1680644 bytes).
 PDF statistics:
- 1240 PDF objects out of 1440 (max. 8388607)
- 461 named destinations out of 1000 (max. 500000)
- 931 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 1261 PDF objects out of 1440 (max. 8388607)
+ 472 named destinations out of 1000 (max. 500000)
+ 950 words of extra memory for PDF output out of 10000 (max. 10000000)
 
