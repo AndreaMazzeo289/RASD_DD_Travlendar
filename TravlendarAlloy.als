@@ -4,15 +4,7 @@ open util/integer
 
 sig Name {}
 
-sig Place {
-	latitude: one Int,
-	longitude: one Int,
-	name: one Name,
-	address: one Name
-} {
-	latitude >0
-	longitude >0
-}
+sig Place {} 
 
 sig Appointment {
 	place: one Place,
@@ -24,7 +16,8 @@ sig Appointment {
 } {
 	date >0
 	time >0
-	alert.appointment = this
+	duration>0
+	alert != none => alert.appointment = this 
 	travel.placeOfArrival = place
 }
 
@@ -39,7 +32,7 @@ sig Alert {
 }
 
 sig Calendar {
-	appointments: some Appointment
+	appointments: set Appointment
 }
 
 sig User {
@@ -60,12 +53,13 @@ sig Movement {
 sig Travel {
 	placeOfDeparture: one Place,
 	placeOfArrival: one Place,
+	timeOfDeparture: one Int,
 	extimatedTime: one Int,
 	movements: some Movement,
-	alternatives: set Travel
 } {
 	placeOfDeparture != placeOfArrival
 	extimatedTime > 0
+	timeOfDeparture > 0
 }
 
 
@@ -77,67 +71,40 @@ fact mailUnique {
 	no disjoint u1, u2: User | u1.email = u2.email
 }
 
-
-//different users must have different calendars
+//different users have different calendars
 fact calendarUnique {
 	no disjoint u1, u2: User | u1.calendar = u2.calendar
 }
 
-
-//no different places with same name, address or coordinates
-fact placesAreDifferent {
-	no disjoint p1, p2: Place | p1.name = p2.name or
-											  p1.address = p2.address or
-											  (p1.latitude = p2.latitude and p1.longitude = p2.longitude)
+//different calendars have different appointments
+fact appointmentsUnique {
+	all disjoint c1, c2 : Calendar | c1.appointments & c2.appointments = none
 }
 
-//a movement cannot exist without its travel
+//a movement cannot exist outside of a travel
 fact noMovementWithoutTravel {
 	Travel.movements = Movement
 }
 
-/*
-//every travel is related to an appointment or is an alternative to a travel related to an appointment
+//a travel cannot exist without its appointment
 fact noTravelWithoutAppointment {
-	Travel = Travel.alternatives + Appointment.travel
+	Appointment.travel = Travel
 }
-*/
 
-
-//an appointment cannot exist without its calendar
+//an appointment cannot exist outside of a calendar
 fact noAppointmentWithoutCalendar {
 	Calendar.appointments = Appointment
 }
-
 
 //a calendar cannot exist without its user
 fact noCalendarWithoutUser {
 	User.calendar = Calendar
 }
 
-
 //the alert of an appointment cannot be scheduled after the beginning of the appointment
 fact alertBeforeAppointment {
-	all a: Appointment | a.date<a.alert.date or a.time < a.alert.time
+	all a: Appointment | a.alert.date < a.date or (a.alert.date=a.date and a.alert.time < a.time)
 }
-
-//travel alternatives depart from and lead to the same place
-fact alternativesAreEquivalent {
-	all t: Travel | (all t1 : t.alternatives | t1.placeOfDeparture = t.placeOfDeparture and t1.placeOfArrival = t.placeOfArrival)
-}
-
-
-//a travel cant be an alternative of itself
-fact alternativesDontContainThemselves {
-	all t: Travel | (t not in t.alternatives)
-}
-
-
-//alternatives of a travel are also alternatives of the alternatives of the travel
-fact alternativesAreSymmetrical {
-	all t: Travel | (all t1 : t.alternatives | t1.alternatives = t.alternatives +t - t1)
-}
-
 
 //every travel is composed by a sequence of connected movements
 fact travelIsMadeByMovements {
@@ -163,9 +130,14 @@ fact travelIsMadeByMovements {
 	
 }
 
+//the extimated time of a travel is the sum of the extimated times of its movements
 fact travelTimeSumOfMovementsTime {
 	all t: Travel | t.extimatedTime = sum (t.movements.extimatedTime)
-													
+}
+
+//every traveal leads to the appointment in time
+fact travelsInTime {
+all a: Appointment | plus[a.travel.timeOfDeparture, a.travel.extimatedTime] = a.time													
 }
 
 
@@ -173,9 +145,56 @@ fact travelTimeSumOfMovementsTime {
 
 //--------ASSERTIONS:-------//
 
-assert numberOfMovementsPerTravel {
-	all t: Travel | #t.movements = #t.movements.placeOfDeparture
+//if a movement starts at the travel starting and ends at travel ending, it's the only movement of the travel (and vice versa)
+assert oneMovementTravel {
+	all t: Travel | all m : t.movements | m.placeOfDeparture = t.placeOfDeparture and m.placeOfArrival = t.placeOfArrival <=> t.movements = m
 }	
 
+//a movement nvere takes a longer time than the corresponding travel
+assert noMovementLongerThanTravel {
+	all t:Travel | no m:t.movements | m.extimatedTime > t.extimatedTime
+}
 
-run {} for 4 but exactly 2 Travel, exactly 0 Appointment, exactly 2 Movement
+
+
+
+//--------PREDICATES:-------//
+pred addAppointment [c1, c2: Calendar, a: Appointment] {
+	a not in c1.appointments implies c2.appointments = c1.appointments + a
+}
+
+pred deleteAppointment [c1, c2: Calendar, a: Appointment] {
+	c2.appointments = c1.appointments - a
+}
+
+pred addAlert [a1, a2: Appointment, al: Alert] {
+	a1.alert = none implies a2.alert = al
+}
+
+pred deleteAlert [a1, a2: Appointment, al: Alert] {
+	a1.alert = al implies a2.alert = none
+}
+
+pred show {}
+
+
+
+check oneMovementTravel
+check noMovementLongerThanTravel
+
+run addAppointment
+run deleteAppointment
+run addAlert
+run deleteAlert
+
+run show for 3 but 8 Int, exactly 1 User, exactly 2 Travel, exactly 3 Movement, exactly 1 Alert
+run show for 3 but 8 Int, exactly 3 User, exactly 2 Appointment
+
+
+
+
+
+
+
+
+

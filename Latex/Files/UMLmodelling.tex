@@ -2,6 +2,7 @@
 \begin{figure}[!h]
 	\centering
 	\makebox[\textwidth][c]{\includegraphics[width=1.2\textwidth]{Images/UseCaseDiagram.png}}%
+	\caption{Use case diagram}
 \end{figure}
 \clearpage
 
@@ -102,7 +103,6 @@
 				\begin{itemize}
 					\item Some of the appointments overlap. The system is not able to compute travels between the appointments and forces the user to choose a prior appointment.
 					\item Some of the appointments are not reachable in the allotted time. The system doesn’t show the travel and signals the problem to the user with a warning.
-					\item Internet connection is not available. The system fails to compute the best travel option and displays a warning to the user.
 				\end{itemize} 
 			\end{minipage} \\ \hline
 	\end{tabular}}
@@ -126,7 +126,7 @@
 				\end{enumerate}
 			\end{minipage}	\\ \hline
 			\textbf{Exit conditions}	& User has obtained all the information needed and has clicked “back” to return to the daily schedule or has selected a specific movement to get further information.  \\ \hline
-			\textbf{Exceptions}			& Internet connection is not available. The system fails to obtain the needed information and displays a warning to the user.  \\ \hline
+			\textbf{Exceptions}			& No exceptions expected  \\ \hline
 	\end{tabular}}
 \end{table}
 
@@ -171,7 +171,7 @@
 				\end{enumerate}
 			\end{minipage}	\\ \hline
 			\textbf{Exit conditions}	& User has obtained all the information needed and has clicked “back” to return to the travel page or has proceeded in buying a ticket.  \\ \hline
-			\textbf{Exceptions}			& Internet connection is not available. The system fails to obtain the needed information and displays a warning to the user.  \\ \hline
+			\textbf{Exceptions}			& No exceptions expected  \\ \hline
 	\end{tabular}}
 \end{table}
 
@@ -215,12 +215,7 @@
 				\end{enumerate}
 			\end{minipage}	\\ \hline
 			\textbf{Exit conditions}	& Payment is successfully fulfilled and bought tickets are available for the view. The user is brought back to the movement page.  \\ \hline
-			\textbf{Exceptions}			& \begin{minipage}[t]{0.75\textwidth}
-				\begin{itemize}
-					\item Payment is rejected. The system notifies the user with a warning. It is possible to repeat the procedure. 
-					\item Internet connection is not available. The system fails to connect to the ticket provider and notifies the user with a warning. The application returns to the movement page.
-				\end{itemize} 
-			\end{minipage} \\ \hline
+			\textbf{Exceptions}			& Payment is rejected. The system notifies the user with a warning. It is possible to repeat the procedure. \\ \hline
 	\end{tabular}}
 \end{table}
 \clearpage
@@ -469,6 +464,27 @@
 			\textbf{Exceptions}			& No exception expected.  \\ \hline
 	\end{tabular}}
 \end{table}
+
+\subsubsection{View bought tickets}
+\begin{table}[!h]
+	\centering
+	{\renewcommand{\arraystretch}{2}%
+		\begin{tabular}{|l|p{12cm}|}
+			\hline
+			\textbf{Name} 				& \textbf{View bought tickets} \\ \hline
+			\textbf{Actors} 			& User \\ \hline
+			\textbf{Entry conditions} 	& The user is logged into the system and clicks on “My tickets” button on the side menu. \\ \hline
+			\textbf{Flow of events}		& \begin{minipage}[t]{0.75\textwidth}
+				\begin{enumerate}
+					\item The system loads the tickets saved in memory and displays the list to the user.
+					\item The user chooses a specific ticket and clicks on it.
+					\item The system displays the full screen ticket.
+				\end{enumerate}
+			\end{minipage}	\\ \hline
+			\textbf{Exit conditions}	& The user has checked the needed tickets and clicks “back” to return to the homepage.   \\ \hline
+			\textbf{Exceptions}			& No tickets saved in memory. The system notifies the absence of saved tickets to the user. \\ \hline
+	\end{tabular}}
+\end{table}
 \clearpage
 
 \subsection{Sequence diagram}
@@ -593,16 +609,7 @@
 \begin{figure}[!h]
 	\centering
 	\begin{minipage}[b]{1\textwidth}
-		\makebox[\textwidth][c]{\includegraphics[width=0.50\textwidth]{Images/ActivityDiagram/EditTravel.png}}%
-	\end{minipage}
-\end{figure}
-\clearpage
-
-\subsubsection{Movement alternative}
-\begin{figure}[!h]
-	\centering
-	\begin{minipage}[b]{1\textwidth}
-		\makebox[\textwidth][c]{\includegraphics[width=0.50\textwidth]{Images/ActivityDiagram/MovementAlternative.png}}%
+		\makebox[\textwidth][c]{\includegraphics[width=1\textwidth]{Images/ActivityDiagram/EditTravel.png}}%
 	\end{minipage}
 \end{figure}
 \clearpage

@@ -1,91 +1,94 @@
 \contentsline {section}{Table of Contents}{3}{table.caption.2}
-\contentsline {section}{List of Figures}{5}{section*.3}
-\contentsline {section}{List of Tables}{5}{section*.4}
-\contentsline {section}{\numberline {1}Introduction}{6}{section.1}
-\contentsline {subsection}{\numberline {1.1}Purpose}{6}{subsection.1.1}
-\contentsline {subsection}{\numberline {1.2}Scope}{6}{subsection.1.2}
-\contentsline {subsection}{\numberline {1.3}Definition, Acronyms, Abbreviations}{6}{subsection.1.3}
-\contentsline {subsubsection}{\numberline {1.3.1}definition}{6}{subsubsection.1.3.1}
-\contentsline {subsubsection}{\numberline {1.3.2}acronyms}{7}{subsubsection.1.3.2}
-\contentsline {subsubsection}{\numberline {1.3.3}abbreviations}{7}{subsubsection.1.3.3}
-\contentsline {subsection}{\numberline {1.4}Revision history}{7}{subsection.1.4}
-\contentsline {subsection}{\numberline {1.5}Reference documents}{7}{subsection.1.5}
-\contentsline {subsection}{\numberline {1.6}Document structure}{7}{subsection.1.6}
-\contentsline {section}{\numberline {2}Overall Description}{8}{section.2}
-\contentsline {subsection}{\numberline {2.1}Product perspective}{8}{subsection.2.1}
-\contentsline {subsection}{\numberline {2.2}Product functions}{8}{subsection.2.2}
-\contentsline {subsection}{\numberline {2.3}User characteristics}{8}{subsection.2.3}
-\contentsline {subsection}{\numberline {2.4}Domain Assumption and Dependencies}{8}{subsection.2.4}
-\contentsline {subsection}{\numberline {2.5}Constrains}{9}{subsection.2.5}
-\contentsline {section}{\numberline {3}Specific Requirements}{10}{section.3}
-\contentsline {subsection}{\numberline {3.1}External interface requirements}{10}{subsection.3.1}
-\contentsline {subsubsection}{\numberline {3.1.1}User interface}{10}{subsubsection.3.1.1}
+\contentsline {section}{List of Figures}{6}{section*.3}
+\contentsline {section}{\numberline {1}Introduction}{7}{section.1}
+\contentsline {subsection}{\numberline {1.1}Purpose}{7}{subsection.1.1}
+\contentsline {subsection}{\numberline {1.2}Scope}{7}{subsection.1.2}
+\contentsline {subsection}{\numberline {1.3}Definition, Acronyms, Abbreviations}{7}{subsection.1.3}
+\contentsline {subsubsection}{\numberline {1.3.1}Definition}{7}{subsubsection.1.3.1}
+\contentsline {subsubsection}{\numberline {1.3.2}Acronyms}{8}{subsubsection.1.3.2}
+\contentsline {subsubsection}{\numberline {1.3.3}Abbreviations}{8}{subsubsection.1.3.3}
+\contentsline {subsection}{\numberline {1.4}Document structure}{8}{subsection.1.4}
+\contentsline {section}{\numberline {2}Overall Description}{9}{section.2}
+\contentsline {subsection}{\numberline {2.1}Product perspective}{9}{subsection.2.1}
+\contentsline {subsection}{\numberline {2.2}Product functions}{9}{subsection.2.2}
+\contentsline {subsection}{\numberline {2.3}User characteristics}{9}{subsection.2.3}
+\contentsline {subsection}{\numberline {2.4}Dependencies}{10}{subsection.2.4}
+\contentsline {subsection}{\numberline {2.5}Constrains}{10}{subsection.2.5}
+\contentsline {section}{\numberline {3}Specific Requirements}{11}{section.3}
+\contentsline {subsection}{\numberline {3.1}External interface requirements}{11}{subsection.3.1}
+\contentsline {subsubsection}{\numberline {3.1.1}User interface}{11}{subsubsection.3.1.1}
 \contentsline {subsubsection}{\numberline {3.1.2}Software interface}{20}{subsubsection.3.1.2}
-\contentsline {subsection}{\numberline {3.2}Functional requirements}{20}{subsection.3.2}
-\contentsline {subsubsection}{\numberline {3.2.1}[G1] Allow a Guest to create a registered Travlendar+ account.}{20}{subsubsection.3.2.1}
-\contentsline {subsubsection}{\numberline {3.2.2}[G2] Allow an User to log in into his Travlendar+ account.}{20}{subsubsection.3.2.2}
-\contentsline {subsubsection}{\numberline {3.2.3}[G3] Allow an User to create a new appointment in his calendar.}{20}{subsubsection.3.2.3}
-\contentsline {subsubsection}{\numberline {3.2.4}[G4] Allow an User to delete an existing appointment from his calendar.}{20}{subsubsection.3.2.4}
-\contentsline {subsubsection}{\numberline {3.2.5}[G5] Allow an User to edit an existing appointment in his calendar.}{21}{subsubsection.3.2.5}
-\contentsline {subsubsection}{\numberline {3.2.6}[G6] Allow an User to view his appointments.}{21}{subsubsection.3.2.6}
-\contentsline {subsubsection}{\numberline {3.2.7}[G7] Allow an User to view his Daily Schedule}{21}{subsubsection.3.2.7}
-\contentsline {subsubsection}{\numberline {3.2.8}[G8] Allow an User to navigate and choose between different travel alternatives.}{22}{subsubsection.3.2.8}
-\contentsline {subsubsection}{\numberline {3.2.9}[G9] Allow an User to manage alerts for each appointment.}{22}{subsubsection.3.2.9}
-\contentsline {subsubsection}{\numberline {3.2.10}[G10] Allow an User to manage his travel preferences.}{22}{subsubsection.3.2.10}
-\contentsline {subsubsection}{\numberline {3.2.11}[G11] Allow an User to buy public transportation tickets.}{23}{subsubsection.3.2.11}
-\contentsline {subsection}{\numberline {3.3}Design constraints}{23}{subsection.3.3}
-\contentsline {subsubsection}{\numberline {3.3.1}Standards compliance}{23}{subsubsection.3.3.1}
-\contentsline {subsubsection}{\numberline {3.3.2}Hardware limitations}{23}{subsubsection.3.3.2}
-\contentsline {subsection}{\numberline {3.4}Software system attributes}{23}{subsection.3.4}
-\contentsline {subsubsection}{\numberline {3.4.1}Reliability}{23}{subsubsection.3.4.1}
-\contentsline {subsubsection}{\numberline {3.4.2}Availability}{23}{subsubsection.3.4.2}
-\contentsline {subsubsection}{\numberline {3.4.3}Security}{23}{subsubsection.3.4.3}
-\contentsline {subsubsection}{\numberline {3.4.4}Maintainability}{24}{subsubsection.3.4.4}
-\contentsline {subsubsection}{\numberline {3.4.5}Portability}{24}{subsubsection.3.4.5}
-\contentsline {section}{\numberline {4}Scenarios}{25}{section.4}
-\contentsline {subsection}{\numberline {4.1}Scenario 1}{25}{subsection.4.1}
-\contentsline {subsection}{\numberline {4.2}Scenario 2}{25}{subsection.4.2}
-\contentsline {subsection}{\numberline {4.3}Scenario 3}{25}{subsection.4.3}
-\contentsline {subsection}{\numberline {4.4}Scenario 4}{25}{subsection.4.4}
-\contentsline {section}{\numberline {5}UML modelling}{26}{section.5}
-\contentsline {subsection}{\numberline {5.1}Use case}{26}{subsection.5.1}
-\contentsline {subsubsection}{\numberline {5.1.1}Sign up}{27}{subsubsection.5.1.1}
-\contentsline {subsubsection}{\numberline {5.1.2}Log in}{28}{subsubsection.5.1.2}
-\contentsline {subsubsection}{\numberline {5.1.3}Manage preferences}{28}{subsubsection.5.1.3}
-\contentsline {subsubsection}{\numberline {5.1.4}View daily schedule}{29}{subsubsection.5.1.4}
-\contentsline {subsubsection}{\numberline {5.1.5}View travel details}{30}{subsubsection.5.1.5}
-\contentsline {subsubsection}{\numberline {5.1.6}Edit travel}{30}{subsubsection.5.1.6}
-\contentsline {subsubsection}{\numberline {5.1.7}View specific movement details}{31}{subsubsection.5.1.7}
-\contentsline {subsubsection}{\numberline {5.1.8}Choose prior appointment}{31}{subsubsection.5.1.8}
-\contentsline {subsubsection}{\numberline {5.1.9}Buy ticket}{32}{subsubsection.5.1.9}
-\contentsline {subsubsection}{\numberline {5.1.10}Delete appointment}{33}{subsubsection.5.1.10}
-\contentsline {subsubsection}{\numberline {5.1.11}Create appointment}{34}{subsubsection.5.1.11}
-\contentsline {subsubsection}{\numberline {5.1.12}Edit appointment}{35}{subsubsection.5.1.12}
-\contentsline {subsubsection}{\numberline {5.1.13}Create flexible appointment}{36}{subsubsection.5.1.13}
-\contentsline {subsubsection}{\numberline {5.1.14}Create repeatable appointment}{36}{subsubsection.5.1.14}
-\contentsline {subsubsection}{\numberline {5.1.15}Create alert}{37}{subsubsection.5.1.15}
-\contentsline {subsubsection}{\numberline {5.1.16}Edit alert}{38}{subsubsection.5.1.16}
-\contentsline {subsubsection}{\numberline {5.1.17}Delete alert}{39}{subsubsection.5.1.17}
-\contentsline {subsubsection}{\numberline {5.1.18}Check appointments on calendar}{39}{subsubsection.5.1.18}
-\contentsline {subsubsection}{\numberline {5.1.19}Change calendar view}{40}{subsubsection.5.1.19}
-\contentsline {subsection}{\numberline {5.2}Sequence diagram}{41}{subsection.5.2}
-\contentsline {subsubsection}{\numberline {5.2.1}Guest registration}{41}{subsubsection.5.2.1}
-\contentsline {subsubsection}{\numberline {5.2.2}User Login}{42}{subsubsection.5.2.2}
-\contentsline {subsubsection}{\numberline {5.2.3}Appointment creation}{43}{subsubsection.5.2.3}
-\contentsline {subsubsection}{\numberline {5.2.4}Appointment editing}{44}{subsubsection.5.2.4}
-\contentsline {subsubsection}{\numberline {5.2.5}Appointment deletion}{45}{subsubsection.5.2.5}
-\contentsline {subsubsection}{\numberline {5.2.6}Alert editing}{46}{subsubsection.5.2.6}
-\contentsline {subsubsection}{\numberline {5.2.7}Alert deletion}{47}{subsubsection.5.2.7}
-\contentsline {subsubsection}{\numberline {5.2.8}Scheduling and view travels}{48}{subsubsection.5.2.8}
-\contentsline {subsubsection}{\numberline {5.2.9}View and edit movements}{49}{subsubsection.5.2.9}
-\contentsline {subsection}{\numberline {5.3}Activity diagram}{50}{subsection.5.3}
-\contentsline {subsubsection}{\numberline {5.3.1}Create appointment}{50}{subsubsection.5.3.1}
-\contentsline {subsubsection}{\numberline {5.3.2}Edit appointment}{51}{subsubsection.5.3.2}
-\contentsline {subsubsection}{\numberline {5.3.3}Delete appointment}{52}{subsubsection.5.3.3}
-\contentsline {subsubsection}{\numberline {5.3.4}Create alert}{52}{subsubsection.5.3.4}
-\contentsline {subsubsection}{\numberline {5.3.5}Edit travel}{53}{subsubsection.5.3.5}
-\contentsline {subsubsection}{\numberline {5.3.6}Movement alternative}{54}{subsubsection.5.3.6}
-\contentsline {subsubsection}{\numberline {5.3.7}Buy ticket}{55}{subsubsection.5.3.7}
-\contentsline {section}{\numberline {6}Formal Analysis Using Alloy}{56}{section.6}
-\contentsline {section}{\numberline {7}Effort Spent}{60}{section.7}
-\contentsline {section}{References}{61}{section.7}
+\contentsline {subsection}{\numberline {3.2}Domain assumptions}{21}{subsection.3.2}
+\contentsline {subsection}{\numberline {3.3}Functional requirements}{21}{subsection.3.3}
+\contentsline {subsection}{\numberline {3.4}Goals}{23}{subsection.3.4}
+\contentsline {subsubsection}{\numberline {3.4.1}[G1] Allow an User to create a new appointment in his calendar.}{23}{subsubsection.3.4.1}
+\contentsline {subsubsection}{\numberline {3.4.2}[G2] Allow a user to create flexible and repeatable appointments (such as lunches, study breaks etc.)}{23}{subsubsection.3.4.2}
+\contentsline {subsubsection}{\numberline {3.4.3}[G3] Allow a user to edit an existing appointment in his calendar.}{24}{subsubsection.3.4.3}
+\contentsline {subsubsection}{\numberline {3.4.4}[G4] Allow a user to delete an existing appointment from his calendar.}{24}{subsubsection.3.4.4}
+\contentsline {subsubsection}{\numberline {3.4.5}[G5] Allow a user to check his calendar to see his appointments.}{24}{subsubsection.3.4.5}
+\contentsline {subsubsection}{\numberline {3.4.6}[G6] Allow a user to view his Daily Schedule.}{25}{subsubsection.3.4.6}
+\contentsline {subsubsection}{\numberline {3.4.7}[G7] Allow a user to see all the details of a specific travel.}{25}{subsubsection.3.4.7}
+\contentsline {subsubsection}{\numberline {3.4.8}[G8] Allow a user to navigate and choose between different travel alternatives.}{25}{subsubsection.3.4.8}
+\contentsline {subsubsection}{\numberline {3.4.9}[G9] Allow a user to manage alerts for each appointment.}{26}{subsubsection.3.4.9}
+\contentsline {subsubsection}{\numberline {3.4.10}[G10] Allow a user to manage his travel preferences.}{26}{subsubsection.3.4.10}
+\contentsline {subsubsection}{\numberline {3.4.11}[G11] Allow a user to buy public transportation tickets.}{26}{subsubsection.3.4.11}
+\contentsline {subsubsection}{\numberline {3.4.12}[G12] Allow a user to view the previously bought tickets.}{27}{subsubsection.3.4.12}
+\contentsline {subsection}{\numberline {3.5}Design constraints}{27}{subsection.3.5}
+\contentsline {subsubsection}{\numberline {3.5.1}Standards compliance}{27}{subsubsection.3.5.1}
+\contentsline {subsubsection}{\numberline {3.5.2}Hardware limitations}{27}{subsubsection.3.5.2}
+\contentsline {subsection}{\numberline {3.6}Software system attributes}{27}{subsection.3.6}
+\contentsline {subsubsection}{\numberline {3.6.1}Reliability}{27}{subsubsection.3.6.1}
+\contentsline {subsubsection}{\numberline {3.6.2}Availability}{27}{subsubsection.3.6.2}
+\contentsline {subsubsection}{\numberline {3.6.3}Security}{27}{subsubsection.3.6.3}
+\contentsline {subsubsection}{\numberline {3.6.4}Maintainability}{27}{subsubsection.3.6.4}
+\contentsline {subsubsection}{\numberline {3.6.5}Portability}{28}{subsubsection.3.6.5}
+\contentsline {section}{\numberline {4}Scenarios}{29}{section.4}
+\contentsline {subsection}{\numberline {4.1}Scenario 1}{29}{subsection.4.1}
+\contentsline {subsection}{\numberline {4.2}Scenario 2}{29}{subsection.4.2}
+\contentsline {subsection}{\numberline {4.3}Scenario 3}{29}{subsection.4.3}
+\contentsline {subsection}{\numberline {4.4}Scenario 4}{29}{subsection.4.4}
+\contentsline {section}{\numberline {5}UML modelling}{30}{section.5}
+\contentsline {subsection}{\numberline {5.1}Use case}{30}{subsection.5.1}
+\contentsline {subsubsection}{\numberline {5.1.1}Sign up}{31}{subsubsection.5.1.1}
+\contentsline {subsubsection}{\numberline {5.1.2}Log in}{32}{subsubsection.5.1.2}
+\contentsline {subsubsection}{\numberline {5.1.3}Manage preferences}{32}{subsubsection.5.1.3}
+\contentsline {subsubsection}{\numberline {5.1.4}View daily schedule}{33}{subsubsection.5.1.4}
+\contentsline {subsubsection}{\numberline {5.1.5}View travel details}{34}{subsubsection.5.1.5}
+\contentsline {subsubsection}{\numberline {5.1.6}Edit travel}{34}{subsubsection.5.1.6}
+\contentsline {subsubsection}{\numberline {5.1.7}View specific movement details}{35}{subsubsection.5.1.7}
+\contentsline {subsubsection}{\numberline {5.1.8}Choose prior appointment}{35}{subsubsection.5.1.8}
+\contentsline {subsubsection}{\numberline {5.1.9}Buy ticket}{36}{subsubsection.5.1.9}
+\contentsline {subsubsection}{\numberline {5.1.10}Delete appointment}{37}{subsubsection.5.1.10}
+\contentsline {subsubsection}{\numberline {5.1.11}Create appointment}{38}{subsubsection.5.1.11}
+\contentsline {subsubsection}{\numberline {5.1.12}Edit appointment}{39}{subsubsection.5.1.12}
+\contentsline {subsubsection}{\numberline {5.1.13}Create flexible appointment}{40}{subsubsection.5.1.13}
+\contentsline {subsubsection}{\numberline {5.1.14}Create repeatable appointment}{40}{subsubsection.5.1.14}
+\contentsline {subsubsection}{\numberline {5.1.15}Create alert}{41}{subsubsection.5.1.15}
+\contentsline {subsubsection}{\numberline {5.1.16}Edit alert}{42}{subsubsection.5.1.16}
+\contentsline {subsubsection}{\numberline {5.1.17}Delete alert}{43}{subsubsection.5.1.17}
+\contentsline {subsubsection}{\numberline {5.1.18}Check appointments on calendar}{43}{subsubsection.5.1.18}
+\contentsline {subsubsection}{\numberline {5.1.19}Change calendar view}{44}{subsubsection.5.1.19}
+\contentsline {subsubsection}{\numberline {5.1.20}View bought tickets}{44}{subsubsection.5.1.20}
+\contentsline {subsection}{\numberline {5.2}Sequence diagram}{45}{subsection.5.2}
+\contentsline {subsubsection}{\numberline {5.2.1}Guest registration}{45}{subsubsection.5.2.1}
+\contentsline {subsubsection}{\numberline {5.2.2}User Login}{46}{subsubsection.5.2.2}
+\contentsline {subsubsection}{\numberline {5.2.3}Appointment creation}{47}{subsubsection.5.2.3}
+\contentsline {subsubsection}{\numberline {5.2.4}Appointment editing}{48}{subsubsection.5.2.4}
+\contentsline {subsubsection}{\numberline {5.2.5}Appointment deletion}{49}{subsubsection.5.2.5}
+\contentsline {subsubsection}{\numberline {5.2.6}Alert editing}{50}{subsubsection.5.2.6}
+\contentsline {subsubsection}{\numberline {5.2.7}Alert deletion}{51}{subsubsection.5.2.7}
+\contentsline {subsubsection}{\numberline {5.2.8}Scheduling and view travels}{52}{subsubsection.5.2.8}
+\contentsline {subsubsection}{\numberline {5.2.9}View and edit movements}{53}{subsubsection.5.2.9}
+\contentsline {subsection}{\numberline {5.3}Activity diagram}{54}{subsection.5.3}
+\contentsline {subsubsection}{\numberline {5.3.1}Create appointment}{54}{subsubsection.5.3.1}
+\contentsline {subsubsection}{\numberline {5.3.2}Edit appointment}{55}{subsubsection.5.3.2}
+\contentsline {subsubsection}{\numberline {5.3.3}Delete appointment}{56}{subsubsection.5.3.3}
+\contentsline {subsubsection}{\numberline {5.3.4}Create alert}{56}{subsubsection.5.3.4}
+\contentsline {subsubsection}{\numberline {5.3.5}Edit travel}{57}{subsubsection.5.3.5}
+\contentsline {subsubsection}{\numberline {5.3.6}Buy ticket}{58}{subsubsection.5.3.6}
+\contentsline {section}{\numberline {6}Formal Analysis Using Alloy}{59}{section.6}
+\contentsline {section}{\numberline {7}Effort Spent}{63}{section.7}
+\contentsline {subsection}{\numberline {7.1}Hours of work}{63}{subsection.7.1}
+\contentsline {subsubsection}{\numberline {7.1.1}Andrea Mafessoni}{63}{subsubsection.7.1.1}
+\contentsline {subsubsection}{\numberline {7.1.2}Andrea Mazzeo}{63}{subsubsection.7.1.2}
+\contentsline {subsubsection}{\numberline {7.1.3}Daniele Moltisanti}{63}{subsubsection.7.1.3}
