@@ -1,36 +1,26 @@
 \subsection{Purpose}
-This document represents the Requirement Analysis and Specification Document (RASD). The goal of this document is to describe the software application and focus on all its features. Furthermore, it’s interested to describe the functional and non-functional requirements of the system.
-Show the constraint, imposed by stakeholders and application environment, the limits of the software.
-This document is intended to all people that are interested to the project, such as stakeholders, investors and all developer and programmer that have to implement the application.
+This document represents the Requirement Analysis and Specification Document (RASD). Aim of this paper is to exhaustively describe the different features and functionalities of the system, specifying goals and constraints of the overall project. The document contains a detailed picture of the system behaviour, both from the point of view of the user experience, in terms of expected use cases and offered features, and with a focus the internal structure of the application, in terms of functional and non-functional requirements.
+This document is intended to be read from all the stakeholders of the project and from any actual or future developer who will need to work properly on it.
 
 \subsection{Scope}
-The application to develop is a mobile application that is called Travlendar+. This software is intended to help people with many commitments to manage the calendar on their smartphone. 
-The only action that the user has to do is insert his daily appointments. The application should be able to organize the whole user’s day, providing advice and reminding all inserted appointment.
-The application aims to be an advanced calendar management system, since it isn’t a simple appointments reminder but it has a lot functionality that allow to the user to be always well organized.
-Lot are the functionality that the application provides, such as the complete transport management, that allow to compute the travel time and to identify the better travel solution basing on user’s preferences and environment information, such as weather conditions.
-The user can choose if travel with own car or walk. He can decide to travel also in public transport and the application provides to the user the transport schedules and which transport choose. The system allows also the functionality to buy a ticket in-app.
-Furthermore, the application is able to find the car sharing or bike sharing points nearest to the user.
-It has an advices system when the appointment and the travel times overlaps. 
-Daily the application can set a little time window (at most half an hour) reserved for the lunch. As this functionality, the user can schedule little break that the application set in day autonomously.
+The application intended to be developed is a mobile app for Android smartphones named Travlendar+. The application aims to provided a calendar-based system, in wich the user is allowed to insert and check his daily appointments and is supported during the travels to reach the provided meeting locations.
+The app is required to be more than a simple virtual calendar: it has to autonomously manage the different travel alternatives and collect information about external weather condition and availability of public transport in order to provide the user with a detailed schedule of his daily trips. The system must require the user to insert only the essential data for the appointment creation and must take care of everything concerns the travel organization, giving at the same time to the user the possibility of arrange differences travel preferences and switch between the possible travel alternatives. Plus, it must be open to advanced settings, allowing the user to create flexible and repeatable appointments or offering the functionality of adding alerts to remind each event. 
+Travlendar+ also aims to implement a ticket-manager system: trough the application it must be possible to buy public transport tickets and view them when needed.
 
 \subsection{Definition, Acronyms, Abbreviations}
 \subsubsection{definition}
 \begin{itemize}
-	\item \textbf{Daily view}:  
-	\item \textbf{Monthly view}:
-	\item \textbf{Weekly view}:
-	\item \textbf{Daily schedule}:
-	\item \textbf{Appointment}: 
-	\item \textbf{Alert}:
-	\item \textbf{Travel}:
-	\item \textbf{Movement}:
-	\item \textbf{Unreachability}:
-	\item \textbf{Overlapping}:
-	\item \textbf{Green}:
-	\item \textbf{Cheaper}:
-	\item \textbf{Faster}:
-	\item \textbf{Repeatable}:
-	\item \textbf{Flexible}:
+	\item \textbf{Daily view}:   specific layout of the calendar that shows all the appointments day by day. 
+	\item \textbf{Monthly view}: specific layout of the calendar that shows the different days in the classic monthly configuration.
+	\item \textbf{Weekly view}: specific layout of the calendar that shows all the appointments week by week. 
+	\item \textbf{Daily schedule}: app function that shows the scheduled itinerary for a given day, specifying all the movements to make to reach the different destinations.
+	\item \textbf{Appointment}: Event scheduled by the user at a specific place, date and time.
+	\item \textbf{Alert}: Reminder associated to a specific appointment that will ring at a given time.
+	\item \textbf{Travel}: List of movements associated to an appointment to reach the event location on time.
+	\item \textbf{Movement}: Atomic shift from a place to a different one with a single transport mean.
+	\item \textbf{Unreachable}: Appointment impossible to reach on time in the condition expressed by the user.
+	\item \textbf{Repeatable}: Appointment required to be scheduled by the system more than once, in different dates expressed by the user.
+	\item \textbf{Flexible}: Appointment required to be scheduled by the sistem in any free time inside a time interval allotted by the user.
 \end{itemize}
 \subsubsection{acronyms}
 \subsubsection{abbreviations}
