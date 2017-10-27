@@ -87,8 +87,8 @@
 \contentsline {subsubsection}{\numberline {5.3.5}Edit travel}{57}{subsubsection.5.3.5}
 \contentsline {subsubsection}{\numberline {5.3.6}Buy ticket}{58}{subsubsection.5.3.6}
 \contentsline {section}{\numberline {6}Formal Analysis Using Alloy}{59}{section.6}
-\contentsline {section}{\numberline {7}Effort Spent}{63}{section.7}
-\contentsline {subsection}{\numberline {7.1}Hours of work}{63}{subsection.7.1}
-\contentsline {subsubsection}{\numberline {7.1.1}Andrea Mafessoni}{63}{subsubsection.7.1.1}
-\contentsline {subsubsection}{\numberline {7.1.2}Andrea Mazzeo}{63}{subsubsection.7.1.2}
-\contentsline {subsubsection}{\numberline {7.1.3}Daniele Moltisanti}{63}{subsubsection.7.1.3}
+\contentsline {section}{\numberline {7}Effort Spent}{64}{section.7}
+\contentsline {subsection}{\numberline {7.1}Hours of work}{64}{subsection.7.1}
+\contentsline {subsubsection}{\numberline {7.1.1}Andrea Mafessoni}{64}{subsubsection.7.1.1}
+\contentsline {subsubsection}{\numberline {7.1.2}Andrea Mazzeo}{65}{subsubsection.7.1.2}
+\contentsline {subsubsection}{\numberline {7.1.3}Daniele Moltisanti}{66}{subsubsection.7.1.3}
