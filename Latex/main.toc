@@ -1,5 +1,5 @@
-\contentsline {section}{Table of Contents}{3}{table.caption.2}
-\contentsline {section}{List of Figures}{6}{section*.3}
+\contentsline {section}{Table of Contents}{3}{table.caption.3}
+\contentsline {section}{List of Figures}{6}{section*.4}
 \contentsline {section}{\numberline {1}Introduction}{7}{section.1}
 \contentsline {subsection}{\numberline {1.1}Purpose}{7}{subsection.1.1}
 \contentsline {subsection}{\numberline {1.2}Scope}{7}{subsection.1.2}
