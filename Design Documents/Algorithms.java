@@ -125,8 +125,8 @@ private Address readLocation(String editTextId) {
 // CREATE APPOINTMENT
 //--------------------------------------------------------//
 /* Appointment class:
-        Location departure;
-        Location destination;
+        Address departure;
+        Address destination;
         String name;
         Date date;
         Time beginTime;
@@ -135,6 +135,22 @@ private Address readLocation(String editTextId) {
         Time arrivalTime;
         Travel travel;
 */
+
+public Appointment createAppointment() {
+    Appointment appointment;
+    String title = readText("title");
+    Date date = formatDate.parse(readText("date"));
+    Time beginTime = Time.valueOf(readText("beginTime"));
+    Address departure = (geocoder.getFromLocationName(readText("departure"),1)).get(0);
+    Address destination = (geocoder.getFromLocationName(readText("destination"),1)).get(0);
+    Time departureTime = Time.valueOf(readText("departureTime"));
+    Float duration = Float.parseFloat(readText("duration"));
+    Time arrivalTime = Time.valueOf(readText("arrivalTime"));
+
+    appointment = new Appointment(title,date,beginTime,departure,destination,departureTime,duration,arrivalTime,preferences);
+    
+    return appointment;
+}
 
 public Appointment(String name, Date date, Time beginTime, Location departure, Location destination, Time departureTime, Float duration,
                   Time arrivalTime, Preferences preferences) {
@@ -160,6 +176,13 @@ public Appointment(String name, Date date, Time beginTime, Location departure, L
         Float distance; kilometers
         Float estimatedTime;
         Weather weatherCondition;
+*/
+
+/* Travel modes:
+		driving
+		walking
+		bicycling
+		transit
 */
 
 public Travel(Location start, Location destination, Time startAt, String travelMode){
