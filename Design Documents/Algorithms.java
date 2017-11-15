@@ -136,23 +136,19 @@ private Address readLocation(String editTextId) {
         Travel travel;
 */
 
-public Appointment createAppointment() {
-    Appointment appointment;
-    String title = readText("title");
-    Date date = formatDate.parse(readText("date"));
-    Time beginTime = Time.valueOf(readText("beginTime"));
-    Address departure = (geocoder.getFromLocationName(readText("departure"),1)).get(0);
-    Address destination = (geocoder.getFromLocationName(readText("destination"),1)).get(0);
-    Time departureTime = Time.valueOf(readText("departureTime"));
-    Float duration = Float.parseFloat(readText("duration"));
-    Time arrivalTime = Time.valueOf(readText("arrivalTime"));
-
-    appointment = new Appointment(title,date,beginTime,departure,destination,departureTime,duration,arrivalTime,preferences);
+public class Appointment {
     
-    return appointment;
-}
+    private String name;
+    private Date date;
+    private Time beginTime;
+    private Address departure;
+    private Address destination;
+    private Time departureTime;
+    private float duration;
+    private Time arrivalTime;
+    private Travel travel;
 
-public Appointment(String name, Date date, Time beginTime, Location departure, Location destination, Time departureTime, Float duration,
+    public Appointment(String name, Date date, Time beginTime, Location departure, Location destination, Time departureTime, Float duration,
                   Time arrivalTime, Preferences preferences) {
     this.name = name;
     this.date = date;
@@ -164,6 +160,28 @@ public Appointment(String name, Date date, Time beginTime, Location departure, L
     this.arrivalTime = arrivalTime; 
     this.travel = new Travel (departure, destination, preferences.travelMode) // <-- pay attention
 }
+
+}
+
+public Appointment createAppointment() {
+    
+    Appointment appointment;
+
+    String name = readText("name");
+    Date date = formatDate.parse(readText("date"));
+    Time beginTime = Time.valueOf(readText("beginTime"));
+    Address departure = (geocoder.getFromLocationName(readText("departure"),1)).get(0);
+    Address destination = (geocoder.getFromLocationName(readText("destination"),1)).get(0);
+    Time departureTime = Time.valueOf(readText("departureTime"));
+    Float duration = Float.parseFloat(readText("duration"));
+    Time arrivalTime = Time.valueOf(readText("arrivalTime"));
+
+    appointment = new Appointment(name,date,beginTime,departure,destination,departureTime,duration,arrivalTime,preferences);
+    
+    return appointment;
+}
+
+
 
 //--------------------------------------------------------//
 // COMPUTE TRAVEL
@@ -184,6 +202,28 @@ public Appointment(String name, Date date, Time beginTime, Location departure, L
 		bicycling
 		transit
 */
+
+public class Travel {
+    Location start;
+    Location destination;
+    String travelMode;
+    Float speed;
+    Float distance; //km
+    Float estimatedTime;
+    Weather weatherCondition;
+
+    public Travel(Location start, Location destination, Time startAt, String travelMode){
+    this.start = start;
+    this.destination = destination;
+    this.startAt = startAt;
+    this.travelMode = travelMode;
+    this.speed = computeSpeed(travelMode); // <-- pay attention
+    this.distance = computeDistance(start,destination);
+    this.estimatedTime = (this.distance/1000)/this.speed;
+    this.weatherCondition = new Weather(start,startAt);
+    }
+}
+
 
 public Travel(Location start, Location destination, Time startAt, String travelMode){
     this.start = start;
@@ -217,9 +257,45 @@ public void viewDailySchedule(Calendar calendar, DateTime day) {
 
     CalendarEventFeed resultFeed = myService.query(myQuery, CalendarEventFeed.class);
     
-    for(int i=0; i<resultFeed.getEntries().size(); i++){
-        Appointment appointment = (Appointment) calendarData.getEntries().get(i); //<-- suppose that appointment extends CalendarEventEntry 
-        appointment.travel = new Travel (appointment.departure, appointment.destination, preferences.travelMode);
+    
+    if(checkUnreachability(appPrevious))
+        manageUnreachability(appPrevious);
+    else
+        appPrevious.travel = new Travel (appPrevious.departure, appPrevious.destination, preferences.travelMode);
+    
+    for(int i=0; i<(resultFeed.getEntries().size())-1; i++) {
+
+        Appointment appPrevious = (Appointment) calendarData.getEntries().get(i);
+        Appointment appNext = (Appointment) calendarData.getEntries().get(i+1); 
+
+        //needed for first cycle
+        if(checkUnreachability(appPrevious)) {// if unreachble
+            appPrevious = manageUnreachability(appPrevious); //change parameters (and is reachable) or delete appointment
+            if(!appPrevious.equals(null))
+                appPrevious.travel = new Travel (appPrevious.departure, appPrevious.destination, preferences.travelMode);
+        }
+        else { // if reachable
+
+            if(checkUnreachability(appNext))
+                appNext = manageUnreachability(appNext); //change parameters (and is reachable) or delete appointment
+            if(appNext.equals(null)) { //appNext is unreachable and is deleted
+                do {
+                    i++;
+                    appNext = (Appointment) calendarData.getEntries().get(i);
+                    if(checkUnreachability(appNext))
+                        appNext = manageUnreachability(appNext);
+                }while(appNext.equals(null))
+            }
+            
+            //surely appNext is not null
+            if(checkOverlap(appPrevious, appNext))
+                appPrevious = manageOverlap(appPrevious,appNext); //choose which is the appointment to keep 
+            else 
+                appPrevious = appNext; //Save previous appointment and go on
+
+            appPrevious.travel = new Travel (appPrevious.departure, appPrevious.destination, preferences.travelMode);
+            
+        }
     }
 }
 
