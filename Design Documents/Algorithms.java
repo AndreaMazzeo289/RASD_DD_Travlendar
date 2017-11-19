@@ -148,19 +148,19 @@ public class Appointment {
     private Time arrivalTime;
     private Travel travel;
 
-    public Appointment(String name, Date date, Time beginTime, Location departure, Location destination, Time departureTime, Float duration,
-                  Time arrivalTime, Preferences preferences) {
-    this.name = name;
-    this.date = date;
-    this.beginTime = beginTime;
-    this.departure = departure;
-    this.destination = destination;
-    this.departureTime = departureTime;
-    this.duration = duration;
-    this.arrivalTime = arrivalTime; 
-    this.travel = new Travel (departure, destination, preferences.travelMode) // <-- pay attention
-}
+    public Appointment(String name, Date date, Time beginTime, Address departure, Address destination, Time departureTime, Float duration,
+                  Time arrivalTime) {
+        this.name = name;
+        this.date = date;
+        this.beginTime = beginTime;
+        this.departure = departure;
+        this.destination = destination;
+        this.departureTime = departureTime;
+        this.duration = duration;
+        this.arrivalTime = arrivalTime;
 
+        this.travel = selectTravel(travelParser(mapsQuery(departure.toString(), destination.toString(), preferences.travelMode)),preferences.travelMode);
+    }
 }
 
 public Appointment createAppointment() {
@@ -176,7 +176,7 @@ public Appointment createAppointment() {
     Float duration = Float.parseFloat(readText("duration"));
     Time arrivalTime = Time.valueOf(readText("arrivalTime"));
 
-    appointment = new Appointment(name,date,beginTime,departure,destination,departureTime,duration,arrivalTime,preferences);
+    appointment = new Appointment(name,date,beginTime,departure,destination,departureTime,duration,arrivalTime);
     
     return appointment;
 }
@@ -224,7 +224,6 @@ public class Travel {
     }
 }
 
-
 public Travel(Location start, Location destination, Time startAt, String travelMode){
     this.start = start;
     this.destination = destination;
@@ -235,6 +234,9 @@ public Travel(Location start, Location destination, Time startAt, String travelM
     this.estimatedTime = (this.distance/1000)/this.speed;
     this.weatherCondition = new Weather(start,startAt);
 }
+
+public ArrayList<JSONObject> mapsQuery (String start, String destination, TravelMode[] travelMode);
+public ArrayList<Travel> travelParser (ArrayList<JSONObject> travelResponseJSON);
 
 public float computeDistance(Location start, Location destination) { 
     return start.distanceTo(destination);
