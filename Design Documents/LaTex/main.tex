@@ -1,0 +1,117 @@
+\input{commandsFile}
+\usepackage{graphicx}
+\usepackage{listings}
+\renewcommand\textfraction{.1}
+\usepackage{booktabs}
+\begin{document}
+	
+	%TITLE PAGE
+	
+	\begin{titlepage}
+		
+		%LOGO
+		\begin{figure}[t]
+			\centering
+			\makebox[\textwidth][c]{\includegraphics[width=0.3\textwidth]{Images/logoPolimi.png}}%
+		\end{figure}
+		\begin{center}
+			Politecnico di Milano\\AA 2017-2018\\
+			\vspace{7mm}
+			Computer Science and Engineering\\
+			\huge Software Engineering 2 Project
+		\end{center}
+		
+		%TITLE 
+		\begin{figure}[!h]
+			\centering
+			\makebox[\textwidth][c]{\includegraphics[width=1.1\textwidth]{Images/LogoTravlendar.png}}%
+		\end{figure}
+		
+		\begin{center}
+			\fontsize{7mm}{10mm}\selectfont Design Document \\
+			\vspace{7mm}
+			\small Andrea Mafessoni - 899558\\
+			Andrea Mazzeo - 895579\\
+			Daniele Moltisanti - 898977
+		\end{center}
+		
+	\end{titlepage}
+	
+	%Define deliverable specific info
+	%Replace cell contents where needed
+	\begin{table}[h!]
+		\begin{tabu} to \textwidth { X[0.3,r,p] X[0.7,l,p] }
+			\hline
+			
+			\textbf{Deliverable:} & DD\\
+			\textbf{Title:} & Design Document \\
+			\textbf{Authors:} & Andrea Mafessoni, Andrea Mazzeo, Daniele Moltisanti \\
+			\textbf{Version:} & 1.0 \\ 
+			\textbf{Date:} & 26-November-2017 \\
+			\textbf{Download page:} & https://github.com/AndreaMazzeo289/MafessoniMazzeoMoltisanti.git \\
+			\textbf{Copyright:} & Copyright © 2017, Andrea Mafessoni, Andrea Mazzeo, Daniele Moltisanti – All rights reserved \\
+			\hline
+		\end{tabu}
+	\end{table}
+	
+	
+	
+	
+	\setcounter{page}{2}
+	
+	
+	%------------------------------------------------------------------------------------------------------------------------------------------------
+	\newpage
+	\addcontentsline{toc}{section}{Table of Contents}
+	\tableofcontents
+	\newpage
+	\addcontentsline{toc}{section}{List of Figures}
+	\listoffigures
+	
+	%------------------------------------------------------------------------------------------------------------------------------------------------
+	\clearpage
+	{\color{Blue}{\section{Introduction}}}
+	\label{sect:Introduction}
+	\input{Files/Introduction}
+	
+	%------------------------------------------------------------------------------------------------------------------------------------------------
+	\clearpage
+	{\color{Blue}{\section{Architectural design}}}
+	\label{sect:ArchitecturalDesign}
+	\input{Files/ArchitecturalDesign}
+	
+	%------------------------------------------------------------------------------------------------------------------------------------------------
+	\clearpage
+	{\color{Blue}{\section{Algorithm design}}}
+	\label{sect:AlgorithmDesign}
+	\input{Files/AlgorithmDesign}
+	
+	%------------------------------------------------------------------------------------------------------------------------------------------------
+	\clearpage
+	{\color{Blue}{\section{User interface design}}}
+	\label{sect:UserInterfaceDesign}
+	\input{Files/UserInterfaceDesign}
+	
+	%------------------------------------------------------------------------------------------------------------------------------------------------
+	\clearpage
+	{\color{Blue}{\section{Requirements traceability}}}
+	\label{sect:RequirementsTraceability}
+	\input{Files/RequirementsTraceability}
+	
+	%------------------------------------------------------------------------------------------------------------------------------------------------
+	\clearpage
+	{\color{Blue}{\section{Implementation, integration and test plan}}}
+	\label{sect:TestPlan}
+	\input{Files/TestPlan}
+	
+	%------------------------------------------------------------------------------------------------------------------------------------------------
+	\clearpage
+	{\color{Blue}{\section{Effort spent}}}
+	\label{sect:EffortSpent}
+	\input{Files/EffortSpent}
+	%------------------------------------------------------------------------------------------------------------------------------------------------
+	
+	
+	
+	
+\end{document}
