@@ -1,0 +1,84 @@
+function viewDailySchedule(day) {
+	
+	for all appointment in day:
+		if checkUnreachability(appointment_i) then: call function manageUnreachability(appointment_i);
+		else:
+			if checkUnreachability(appointment_i+1) is unreachable then: call function manageUnreachability(appointment_i+1);
+			else:
+				if checkOverlap(appointment_i, appointment_i+1) then: 
+					call function manageOverlap(appointment_i,appointment_i+1);
+				computeTravel(appointment_i);
+		increment i;
+}
+
+function computeTravel(appointment) {
+	
+	read appointment->departure_place;
+	read appointment->destination_place;
+	read appointment->date;
+	read appointment->time;
+	read preferences->travelPreferences;
+	
+	// the function queryMaps use the passed paramateres to find the travel with API maps and
+	// parse the JSON response to extract the travel
+	travel = queryMaps(departure_place,destination_place,travelPreferences); 
+
+	for all movement detected in travel:
+		call createMovement function;
+		add the created movement to movementList;
+
+	weather = result of function computeWeatherCondition(departure_place,destination_place, date, time);
+		if (wheater is 'rain') and ( (travelPreferences is 'green') or (exists one movement : movementType is 'walk' or 'bike') )
+			call function notifyUser("Rain expected, not reccomended use of bike or walks"); // this is a message
+}
+
+
+function checkOverlap(app1, app2) {
+	
+	if(app1 is before of app2 and (start time of app2 is before the end of app1)) then: return overlap;
+	else
+		if(start time of app1 is before the end of app2) then: return overlap;
+	return no overlap;
+}
+
+function checkUnreachability(appointment) {
+	
+	if arrival time of appointment is before the (departure time add to travel time) then: return unreachable;
+		else return reachable;
+}
+
+
+function checkTravelAlternative(travel, travelType) {
+	
+	switch(travelType) {
+		case 'only_own_car' then: 
+			compute driving travel alternative;
+		case 'only_public_transport' then: 
+			compute transit travel alternative;
+		case 'green' then: 
+			compute bicycling travel alternative;
+		case 'faster' or 'cheaper' then:
+			compute a set of differents travel alternatives;
+	}
+
+	if travel alternative exists then:
+		if travelType is 'faster' then: find faster travel in the computed set and return it;
+		if travelType is 'cheaper' then: find cheaper travel in the computed set and return it;
+		return the travel alternative found;
+}
+
+function checkMovementAlternative(movement, movementType) {
+	
+	switch(movementType) {
+		case 'car' then: compute driving movement;
+		case 'walk' then: compute walking movement;
+		case 'public_transport' then: compute transit movement;
+		case 'bike' then: compute bicycling movement;
+		case 'car_sharging'
+			compute walking movement to reach the car;
+			add a further driving movement;
+		case 'bike_sharing':
+			compute walking movement to reach the bike;
+			add a further bicycling movement;
+	}
+}
