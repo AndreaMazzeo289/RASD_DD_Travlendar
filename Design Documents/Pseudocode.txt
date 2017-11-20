@@ -13,21 +13,21 @@ function viewDailySchedule(day) {
 
 function computeTravel(appointment) {
 	
-	read appointment->departure_place;
-	read appointment->destination_place;
-	read appointment->date;
-	read appointment->time;
-	read preferences->travelPreferences;
+	read appointment.departure;
+	read appointment.destination;
+	read appointment.date;
+	read appointment.beginTime;
+	read preferences.travelPreferences;
 	
 	// the function queryMaps use the passed paramateres to find the travel with API maps and
 	// parse the JSON response to extract the travel
-	travel = queryMaps(departure_place,destination_place,travelPreferences); 
+	travel = queryMaps(departure,destination,travelPreferences); 
 
 	for all movement detected in travel:
 		call createMovement function;
 		add the created movement to movementList;
 
-	weather = result of function computeWeatherCondition(departure_place,destination_place, date, time);
+	weather = result of function computeWeatherCondition(departure,destination, date, time);
 		if (wheater is 'rain') and ( (travelPreferences is 'green') or (exists one movement : movementType is 'walk' or 'bike') )
 			call function notifyUser("Rain expected, not reccomended use of bike or walks"); // this is a message
 }
@@ -35,15 +35,15 @@ function computeTravel(appointment) {
 
 function checkOverlap(app1, app2) {
 	
-	if(app1 is before of app2 and (start time of app2 is before the end of app1)) then: return overlap;
+	if (app1.beginTime is before of app2.beginTime and (app2.beginTime is before (app1.beginTime + app1.duration)) then: return overlap;
 	else
-		if(start time of app1 is before the end of app2) then: return overlap;
+		if(app1.beginTime is before (app2.beginTime + app2.duration)) then: return overlap;
 	return no overlap;
 }
 
 function checkUnreachability(appointment) {
 	
-	if arrival time of appointment is before the (departure time add to travel time) then: return unreachable;
+	if (appointment.arrivalTime is before (appointment.departureTime + travel duration)) then: return unreachable;
 		else return reachable;
 }
 
