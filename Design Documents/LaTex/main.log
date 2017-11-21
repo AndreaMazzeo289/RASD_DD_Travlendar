@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (MiKTeX 2.9.6350 64-bit) (preloaded format=pdflatex 2017.10.23)  20 NOV 2017 22:23
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (MiKTeX 2.9.6350 64-bit) (preloaded format=pdflatex 2017.10.23)  21 NOV 2017 15:36
 entering extended mode
 **./main.tex
 (main.tex
@@ -1090,7 +1090,26 @@ File: listings.cfg 2015/06/04 1.6 listings configuration
 ))
 Package: listings 2015/06/04 1.6 (Carsten Heinz)
 
-("C:\Program Files\MiKTeX 2.9\tex\latex\booktabs\booktabs.sty"
+("C:\Program Files\MiKTeX 2.9\tex\latex\algorithmicx\algpseudocode.sty"
+Package: algpseudocode 
+
+("C:\Program Files\MiKTeX 2.9\tex\latex\algorithmicx\algorithmicx.sty"
+Package: algorithmicx 2005/04/27 v1.2 Algorithmicx
+
+Document Style algorithmicx 1.2 - a greatly improved `algorithmic' style
+\c@ALG@line=\count149
+\c@ALG@rem=\count150
+\c@ALG@nested=\count151
+\ALG@tlm=\skip96
+\ALG@thistlm=\skip97
+\c@ALG@Lnr=\count152
+\c@ALG@blocknr=\count153
+\c@ALG@storecount=\count154
+\c@ALG@tmpcounter=\count155
+\ALG@tmplength=\skip98
+)
+Document Style - pseudocode environments for use with the `algorithmicx' style
+) ("C:\Program Files\MiKTeX 2.9\tex\latex\booktabs\booktabs.sty"
 Package: booktabs 2005/04/14 v1.61803 publication quality tables
 \heavyrulewidth=\dimen262
 \lightrulewidth=\dimen263
@@ -1102,31 +1121,31 @@ Package: booktabs 2005/04/14 v1.61803 publication quality tables
 \cmidrulesep=\dimen269
 \cmidrulekern=\dimen270
 \defaultaddspace=\dimen271
-\@cmidla=\count149
-\@cmidlb=\count150
+\@cmidla=\count156
+\@cmidlb=\count157
 \@aboverulesep=\dimen272
 \@belowrulesep=\dimen273
-\@thisruleclass=\count151
-\@lastruleclass=\count152
+\@thisruleclass=\count158
+\@lastruleclass=\count159
 \@thisrulewidth=\dimen274
 ) (main.aux)
 \openout1 = `main.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 6.
-LaTeX Font Info:    ... okay on input line 6.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 6.
-LaTeX Font Info:    ... okay on input line 6.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 6.
-LaTeX Font Info:    ... okay on input line 6.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 6.
-LaTeX Font Info:    ... okay on input line 6.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 6.
-LaTeX Font Info:    ... okay on input line 6.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 6.
-LaTeX Font Info:    ... okay on input line 6.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 6.
-LaTeX Font Info:    ... okay on input line 6.
-LaTeX Font Info:    Try loading font information for T1+ptm on input line 6.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 7.
+LaTeX Font Info:    ... okay on input line 7.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 7.
+LaTeX Font Info:    ... okay on input line 7.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 7.
+LaTeX Font Info:    ... okay on input line 7.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 7.
+LaTeX Font Info:    ... okay on input line 7.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 7.
+LaTeX Font Info:    ... okay on input line 7.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 7.
+LaTeX Font Info:    ... okay on input line 7.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 7.
+LaTeX Font Info:    ... okay on input line 7.
+LaTeX Font Info:    Try loading font information for T1+ptm on input line 7.
 
 ("C:\Program Files\MiKTeX 2.9\tex\latex\psnfss\t1ptm.fd"
 File: t1ptm.fd 2001/06/04 font definitions for T1/ptm.
@@ -1167,16 +1186,16 @@ File: t1ptm.fd 2001/06/04 font definitions for T1/ptm.
 
 ("C:\Program Files\MiKTeX 2.9\tex\context\base\supp-pdf.mkii"
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count153
+\scratchcounter=\count160
 \scratchdimen=\dimen275
 \scratchbox=\box53
-\nofMPsegments=\count154
-\nofMParguments=\count155
+\nofMPsegments=\count161
+\nofMParguments=\count162
 \everyMPshowfont=\toks47
-\MPscratchCnt=\count156
+\MPscratchCnt=\count163
 \MPscratchDim=\dimen276
-\MPnumerator=\count157
-\makeMPintoPDFobject=\count158
+\MPnumerator=\count164
+\makeMPintoPDFobject=\count165
 \everyMPtoPDFconversion=\toks48
 ) ("C:\Program Files\MiKTeX 2.9\tex\latex\oberdiek\epstopdf-base.sty"
 Package: epstopdf-base 2016/05/15 v2.6 Base part for package epstopdf
@@ -1196,7 +1215,7 @@ Package caption Info: hyperref package is loaded.
 Package caption Info: listings package is loaded.
 Package caption Info: End \AtBeginDocument code.
 \AtBeginShipoutBox=\box54
-Package hyperref Info: Link coloring ON on input line 6.
+Package hyperref Info: Link coloring ON on input line 7.
 
 ("C:\Program Files\MiKTeX 2.9\tex\latex\hyperref\nameref.sty"
 Package: nameref 2016/05/21 v2.44 Cross-referencing by name of section
@@ -1204,53 +1223,53 @@ Package: nameref 2016/05/21 v2.44 Cross-referencing by name of section
 ("C:\Program Files\MiKTeX 2.9\tex\generic\oberdiek\gettitlestring.sty"
 Package: gettitlestring 2016/05/16 v1.5 Cleanup title references (HO)
 )
-\c@section@level=\count159
+\c@section@level=\count166
 )
-LaTeX Info: Redefining \ref on input line 6.
-LaTeX Info: Redefining \pageref on input line 6.
-LaTeX Info: Redefining \nameref on input line 6.
+LaTeX Info: Redefining \ref on input line 7.
+LaTeX Info: Redefining \pageref on input line 7.
+LaTeX Info: Redefining \nameref on input line 7.
 
 (main.out) (main.out)
 \@outlinefile=\write4
 \openout4 = `main.out'.
 
  ABD: EveryShipout initializing macros
-\c@lstlisting=\count160
+\c@lstlisting=\count167
 
-<Images/logoPolimi.png, id=94, 312.16624pt x 312.16624pt>
+<Images/logoPolimi.png, id=166, 312.16624pt x 312.16624pt>
 File: Images/logoPolimi.png Graphic file (type png)
 
 <use Images/logoPolimi.png>
-Package pdftex.def Info: Images/logoPolimi.png used on input line 15.
+Package pdftex.def Info: Images/logoPolimi.png used on input line 16.
 (pdftex.def)             Requested size: 136.57462pt x 136.57715pt.
 
-<Images/LogoTravlendar.png, id=96, 1285.80376pt x 468.24937pt>
+<Images/LogoTravlendar.png, id=168, 1285.80376pt x 468.24937pt>
 File: Images/LogoTravlendar.png Graphic file (type png)
 
 <use Images/LogoTravlendar.png>
-Package pdftex.def Info: Images/LogoTravlendar.png used on input line 27.
+Package pdftex.def Info: Images/LogoTravlendar.png used on input line 28.
 (pdftex.def)             Requested size: 500.77129pt x 182.36644pt.
  [1
 
 {C:/ProgramData/MiKTeX/2.9/pdftex/config/pdftex.map} <./Images/logoPolimi.png> 
 <./Images/LogoTravlendar.png>]
-LaTeX Font Info:    Try loading font information for U+wasy on input line 43.
+LaTeX Font Info:    Try loading font information for U+wasy on input line 44.
 
 ("C:\Program Files\MiKTeX 2.9\tex\latex\wasysym\uwasy.fd"
 File: uwasy.fd 2003/10/30 v2.0 Wasy-2 symbol font definitions
 )
-LaTeX Font Info:    Try loading font information for U+msa on input line 43.
+LaTeX Font Info:    Try loading font information for U+msa on input line 44.
 
 ("C:\Program Files\MiKTeX 2.9\tex\latex\amsfonts\umsa.fd"
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
-LaTeX Font Info:    Try loading font information for U+msb on input line 43.
+LaTeX Font Info:    Try loading font information for U+msb on input line 44.
 
 ("C:\Program Files\MiKTeX 2.9\tex\latex\amsfonts\umsb.fd"
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 )
 ("C:\Program Files\MiKTeX 2.9\tex\latex\psnfss\omsptm.fd")
-Overfull \hbox (6.69725pt too wide) in paragraph at lines 54--54
+Overfull \hbox (6.69725pt too wide) in paragraph at lines 55--55
 []\T1/ptm/m/n/10.95 https://github.com/AndreaMazzeo289/MafessoniMazzeoMoltisant
 i.git|  
  []
@@ -1262,10 +1281,10 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
  This may cause the page layout to be inconsistent, however.
 
 LaTeX Font Info:    Font shape `OMS/ptm/m/n' in size <10> not available
-(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 64.
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 65.
 [2]
 LaTeX Font Info:    Font shape `T1/ptm/bx/n' in size <14.4> not available
-(Font)              Font shape `T1/ptm/b/n' tried instead on input line 66.
+(Font)              Font shape `T1/ptm/b/n' tried instead on input line 67.
  (main.toc)
 \tf@toc=\write5
 \openout5 = `main.toc'.
@@ -1282,43 +1301,114 @@ LaTeX Font Info:    Font shape `T1/ptm/bx/n' in size <12> not available
 ]
 (Files/ArchitecturalDesign.tex) [6
 
-] (Files/AlgorithmDesign.tex) [7
+] (Files/AlgorithmDesign.tex
+("C:\Program Files\MiKTeX 2.9\tex\latex\listings\lstlang1.sty"
+File: lstlang1.sty 2015/06/04 1.6 listings language file
+) [7
+
+] [8]
+[9] <Images/TravelAlternatives.png, id=310, 247.52475pt x 65.043pt>
+File: Images/TravelAlternatives.png Graphic file (type png)
+
+<use Images/TravelAlternatives.png>
+Package pdftex.def Info: Images/TravelAlternatives.png used on input line 203.
+(pdftex.def)             Requested size: 227.62206pt x 59.81447pt.
+ [10 <./Images/TravelAlternatives.png>]
+[11]) [12] (Files/UserInterfaceDesign.tex
+<Images/UI/LogIn.PNG, id=330, 963.6pt x 542.025pt>
+File: Images/UI/LogIn.PNG Graphic file (type png)
+ <use Images/UI/LogIn.PNG>
+Package pdftex.def Info: Images/UI/LogIn.PNG used on input line 5.
+(pdftex.def)             Requested size: 637.33897pt x 358.51503pt.
+
+[13
+
+ <./Images/UI/LogIn.PNG>]
+<Images/UI/Views.PNG, id=336, 963.6pt x 542.025pt>
+File: Images/UI/Views.PNG Graphic file (type png)
+ <use Images/UI/Views.PNG>
+Package pdftex.def Info: Images/UI/Views.PNG used on input line 14.
+(pdftex.def)             Requested size: 637.33897pt x 358.51503pt.
+
+[14
+
+ <./Images/UI/Views.PNG>] <Images/UI/New.PNG, id=341, 963.6pt x 542.025pt>
+File: Images/UI/New.PNG Graphic file (type png)
+
+<use Images/UI/New.PNG>
+Package pdftex.def Info: Images/UI/New.PNG used on input line 23.
+(pdftex.def)             Requested size: 637.33897pt x 358.51503pt.
+ [15
+
+ <./Images/UI/New.PNG>]
+<Images/UI/Edit.PNG, id=346, 963.6pt x 542.025pt>
+File: Images/UI/Edit.PNG Graphic file (type png)
+ <use Images/UI/Edit.PNG>
+Package pdftex.def Info: Images/UI/Edit.PNG used on input line 32.
+(pdftex.def)             Requested size: 637.33897pt x 358.51503pt.
+
+[16
+
+ <./Images/UI/Edit.PNG>]
+<Images/UI/Preferences.PNG, id=351, 963.6pt x 542.025pt>
+File: Images/UI/Preferences.PNG Graphic file (type png)
+
+<use Images/UI/Preferences.PNG>
+Package pdftex.def Info: Images/UI/Preferences.PNG used on input line 40.
+(pdftex.def)             Requested size: 637.33897pt x 358.51503pt.
+ [17
+
+ <./Images/UI/Preferences.PNG>]
+<Images/UI/Schedule.PNG, id=356, 963.6pt x 542.025pt>
+File: Images/UI/Schedule.PNG Graphic file (type png)
+
+<use Images/UI/Schedule.PNG>
+Package pdftex.def Info: Images/UI/Schedule.PNG used on input line 49.
+(pdftex.def)             Requested size: 637.33897pt x 358.51503pt.
+ [18
+
+ <./Images/UI/Schedule.PNG>]
+<Images/UI/Ticket.PNG, id=361, 963.6pt x 542.025pt>
+File: Images/UI/Ticket.PNG Graphic file (type png)
+ <use Images/UI/Ticket.PNG>
+Package pdftex.def Info: Images/UI/Ticket.PNG used on input line 58.
+(pdftex.def)             Requested size: 637.33897pt x 358.51503pt.
+
+[19
+
+ <./Images/UI/Ticket.PNG>]) (Files/RequirementsTraceability.tex) [20
+
 
 ]
-(Files/UserInterfaceDesign.tex) [8
+(Files/TestPlan.tex) [21
 
-] (Files/RequirementsTraceability.tex)
-[9
-
-] (Files/TestPlan.tex) [10
-
-] (Files/EffortSpent.tex) [11
+] (Files/EffortSpent.tex) [22
 
 ]
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 117.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 117.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 118.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 118.
  (main.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 117.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 117.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 118.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 118.
 Package rerunfilecheck Info: File `main.out' has not changed.
-(rerunfilecheck)             Checksum: 1A2BB1AE798E7D41D790CC40C1A96B04;1457.
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 117.
+(rerunfilecheck)             Checksum: 5E61DC54B83328DB1F32352A218A4D26;2820.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 118.
  ) 
 Here is how much of TeX's memory you used:
- 21552 strings out of 493323
- 389414 string characters out of 3139065
- 462927 words of memory out of 3000000
- 24603 multiletter control sequences out of 15000+200000
- 33286 words of font info for 55 fonts, out of 3000000 for 9000
+ 22589 strings out of 493323
+ 402721 string characters out of 3139065
+ 489663 words of memory out of 3000000
+ 25533 multiletter control sequences out of 15000+200000
+ 38502 words of font info for 57 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
- 59i,21n,65p,432b,529s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 59i,21n,65p,432b,1120s stack positions out of 5000i,500n,10000p,200000b,50000s
 {C:/Program Files/MiKTeX 2.9/fonts/enc/dvips/base/8r.enc}<C:/Program Files/Mi
 KTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Program Files/MiKTeX 2.9
 /fonts/type1/urw/times/utmb8a.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/urw/
 times/utmr8a.pfb>
-Output written on main.pdf (11 pages, 183196 bytes).
+Output written on main.pdf (22 pages, 663965 bytes).
 PDF statistics:
- 197 PDF objects out of 1000 (max. 8388607)
- 37 named destinations out of 1000 (max. 500000)
- 199 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 419 PDF objects out of 1000 (max. 8388607)
+ 121 named destinations out of 1000 (max. 500000)
+ 383 words of extra memory for PDF output out of 10000 (max. 10000000)
 
