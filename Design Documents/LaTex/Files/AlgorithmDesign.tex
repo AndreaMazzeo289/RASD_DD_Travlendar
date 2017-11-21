@@ -244,8 +244,10 @@ The user can check all available travel alternatives and modify the actual one w
 \end{algorithmic}
 
 \subsubsection{Check movement alternative}
-\begin{algorithmic}
+When the user views a movement details and clicks on a "means icon" from the bar, the system calls this function that read the movement type selected and computed the relative movement.	
+\\ If the user selects 'car-sharing' or 'bike-sharing' it is added a new movement to reach the car or bike.
 
+\begin{algorithmic}
 	\Function {checkMovementAlternative}{movement, movementType}
 		\If {movementType is 'car'}
 			\State compute driving movement
@@ -262,7 +264,6 @@ The user can check all available travel alternatives and modify the actual one w
 			\State compute walking movement to reach the bike
 			\State add a further bicycling movement
 		\EndIf
-	
 	
 		\If{computed movement exists}
 			\State \Return movement alternative
