@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (MiKTeX 2.9.6350 64-bit) (preloaded format=pdflatex 2017.10.23)  29 OCT 2017 15:30
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (MiKTeX 2.9.6350 64-bit) (preloaded format=pdflatex 2017.10.23)  22 NOV 2017 13:38
 entering extended mode
 **./main.tex
 (main.tex
@@ -1287,16 +1287,16 @@ LaTeX Font Info:    Font shape `T1/ptm/bx/n' in size <12> not available
 
 ]) [8]
 (Files/overview.tex
-<Images/ClassDiagram.png, id=572, 1067.48813pt x 584.1825pt>
-File: Images/ClassDiagram.png Graphic file (type png)
+<Images/ClassDiagram_v1-1.png, id=572, 1067.48813pt x 584.1825pt>
+File: Images/ClassDiagram_v1-1.png Graphic file (type png)
 
-<use Images/ClassDiagram.png>
-Package pdftex.def Info: Images/ClassDiagram.png used on input line 6.
+<use Images/ClassDiagram_v1-1.png>
+Package pdftex.def Info: Images/ClassDiagram_v1-1.png used on input line 6.
 (pdftex.def)             Requested size: 546.29153pt x 298.96313pt.
  [9
 
- <./Images/ClassDiagram.png>]) [10]
-(Files/requirements.tex
+ <./Images/ClassDiagram_v1-1.png>])
+[10] (Files/requirements.tex
 <Images/Mockup/LogPage.png, id=582, 310.15875pt x 551.05875pt>
 File: Images/Mockup/LogPage.png Graphic file (type png)
 
@@ -1794,7 +1794,7 @@ Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 117.
  ) 
 Here is how much of TeX's memory you used:
  22571 strings out of 493323
- 406327 string characters out of 3139065
+ 406352 string characters out of 3139065
  496859 words of memory out of 3000000
  25112 multiletter control sequences out of 15000+200000
  33286 words of font info for 55 fonts, out of 3000000 for 9000
@@ -1804,7 +1804,7 @@ Here is how much of TeX's memory you used:
 KTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Program Files/MiKTeX 2.9
 /fonts/type1/urw/times/utmb8a.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/urw/
 times/utmr8a.pfb>
-Output written on main.pdf (66 pages, 2064771 bytes).
+Output written on main.pdf (66 pages, 2069895 bytes).
 PDF statistics:
  1331 PDF objects out of 1440 (max. 8388607)
  501 named destinations out of 1000 (max. 500000)
