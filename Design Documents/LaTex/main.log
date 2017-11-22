@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (MiKTeX 2.9.6350 64-bit) (preloaded format=pdflatex 2017.10.23)  22 NOV 2017 13:16
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (MiKTeX 2.9.6350 64-bit) (preloaded format=pdflatex 2017.10.23)  22 NOV 2017 13:31
 entering extended mode
 **./main.tex
 (main.tex
@@ -1307,6 +1307,12 @@ File: lstlang1.sty 2015/06/04 1.6 listings language file
 ) [8
 
 ] [9]
+Overfull \hbox (133.54138pt too wide) in paragraph at lines 152--155
+[] \T1/ptm/b/n/10.95 end if\T1/ptm/m/sc/10.95 computeTravel\T1/ptm/m/n/10.95 (a
+ppointment-i,appointment-i.travel.placeOfDeparture, appoinment-i.travel.departu
+reTime,preferences)
+ []
+
 [10] <Images/TravelAlternatives.png, id=325, 247.52475pt x 65.043pt>
 File: Images/TravelAlternatives.png Graphic file (type png)
 
@@ -1416,8 +1422,8 @@ Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 118.
  ) 
 Here is how much of TeX's memory you used:
  22612 strings out of 493323
- 403092 string characters out of 3139065
- 488578 words of memory out of 3000000
+ 403088 string characters out of 3139065
+ 489578 words of memory out of 3000000
  25547 multiletter control sequences out of 15000+200000
  38502 words of font info for 57 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
@@ -1426,7 +1432,7 @@ Here is how much of TeX's memory you used:
 KTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Program Files/MiKTeX 2.9
 /fonts/type1/urw/times/utmb8a.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/urw/
 times/utmr8a.pfb>
-Output written on main.pdf (25 pages, 689566 bytes).
+Output written on main.pdf (25 pages, 689587 bytes).
 PDF statistics:
  452 PDF objects out of 1000 (max. 8388607)
  126 named destinations out of 1000 (max. 500000)

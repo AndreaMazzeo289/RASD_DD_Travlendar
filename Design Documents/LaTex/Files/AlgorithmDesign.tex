@@ -36,7 +36,7 @@ Here the appointment class written in Java:
 		Date date;
 		Time time;
 		Place place;
-		Time arrivalTime;
+		Time timeOfArrival;
 		Time duration;
 		Travel travel;
 	}
@@ -61,7 +61,7 @@ Here the travel class written in Java:
 		Appointment appointment;
 		Place placeOfDeparture;
 		Place placeOfArrival;
-		Time departureTime;
+		Time timeOfDeparture;
 		ArrayList<Movement> movements;
 	}
 \end{lstlisting}
@@ -100,22 +100,22 @@ The followed procedure is composed by four steps:
 \end{enumerate}
 
 \begin{algorithmic}
-	\Function{computeTravel}{appoinment}
+	\Function{computeTravel}{appoinment, placeOfDeparture, timeOfDeparture, preferences}
 		
-		\State \Call{read}{appointment.departure}
-		\State \Call{read}{appointment.destination}
-		\State \Call{read}{appointment.date}
-		\State \Call{read}{appointment.beginTime}
-		\State \Call{read}{appointment.travelPreferences}
+		\State \Call{read}{appointment.place}
+		\State \Call{read}{preferences.travelPreferences}
 		
-		\State travel = \Call{queryMaps}{departure,destination,travelPreferences} 
+		\State travel = \Call{queryMaps}{placeOfDeparture,place,travelPreferences} 
 		
 		\ForAll{movement detected in travel}
 			\State createdMovement = \Call {createMovement}{movement}
 			\State \Call {addToMovementList}{createdMovement}
 		\EndFor
 		
-		weather = \Call{computeWeatherCondition}{departure,destination, date, time}
+		\State \Call{read}{appointment.date}
+		\State \Call{read}{appointment.time}
+		
+		weather = \Call{computeWeatherCondition}{placeOfDeparture, place, date, time}
 		\If {wheater is 'rain' and ( (travelPreferences is 'green') or (exists one movement : movementType is 'walk' or 'bike') )}
 			\State \Call {notifyUser}{"Rain expected, not reccomended use of bike or walks"}
 		\EndIf
@@ -150,7 +150,7 @@ The function is composed by four steps:
 		\ElsIf {\Call{checkOverlap}{appointment-i, appointment-i+1} is overlap}
 			\State \Call {manageOverlap}{appointment-i,appointment-i+1}
 		\EndIf
-		\Call {computeTravel}{appointment-i}
+		\Call {computeTravel}{appointment-i,appointment-i.travel.placeOfDeparture, appoinment-i.travel.departureTime,preferences}
 		\Call {increment}{i}
 	\EndFunction
 \end{algorithmic}
@@ -163,9 +163,9 @@ The function controls which appointment starts before and then controls if the b
 \begin{algorithmic}
 	
 	\Function {checkOverlap}{app1, app2}
-		\If{app1.beginTime is before of app2.beginTime and (app2.beginTime is before (app1.beginTime + app1.duration))} 
+		\If{app1.time is before of app2.time and (app2.time is before (app1.time + app1.duration))} 
 			\State \Return overlap
-		\ElsIf{app1.beginTime is before (app2.beginTime + app2.duration)} 
+		\ElsIf{app1.time is before (app2.time + app2.duration)} 
 			\State \Return overlap
 		\EndIf;
 		\State \Return no overlap
@@ -180,7 +180,7 @@ To check the unreachability it is necessary to control if the arrival time of on
 \begin{algorithmic}
 	
 	\Function {checkUnreachability}{appointment}
-		\If {appointment.arrivalTime is before (appointment.departureTime + travel duration)} 
+		\If {appointment.timeOfArrival is before (appointment.travel.timeOfDeparture + travel duration)} 
 			\State \Return unreachable;
 		\Else 
 			\State \Return reachable;
