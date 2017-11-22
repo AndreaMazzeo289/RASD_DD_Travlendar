@@ -20,8 +20,8 @@
 \contentsline {subsubsection}{\numberline {3.1.1}Appointment class}{8}{subsubsection.3.1.1}
 \contentsline {subsubsection}{\numberline {3.1.2}Travel class}{9}{subsubsection.3.1.2}
 \contentsline {subsubsection}{\numberline {3.1.3}Movement class}{9}{subsubsection.3.1.3}
-\contentsline {subsection}{\numberline {3.2}Algorithms}{10}{subsection.3.2}
-\contentsline {subsubsection}{\numberline {3.2.1}Compute travel}{10}{subsubsection.3.2.1}
+\contentsline {subsection}{\numberline {3.2}Algorithms}{9}{subsection.3.2}
+\contentsline {subsubsection}{\numberline {3.2.1}Compute travel}{9}{subsubsection.3.2.1}
 \contentsline {subsubsection}{\numberline {3.2.2}View daily schedule}{10}{subsubsection.3.2.2}
 \contentsline {subsubsection}{\numberline {3.2.3}Check overlap}{11}{subsubsection.3.2.3}
 \contentsline {subsubsection}{\numberline {3.2.4}Check unreachability}{11}{subsubsection.3.2.4}

@@ -21,10 +21,8 @@ The class Appointment has as attributes:
 \begin{itemize}
 	\item The appointment name;
 	\item The date;
-	\item The time when it starts;
-	\item Address of destination;
-	\item Address of departure;
-	\item The desired time to leave;
+	\item The start time;
+	\item The place of arrival;
 	\item The expected time of arrival;
 	\item The appointment duration;
 	\item The associated travel to reach the appointment;
@@ -36,12 +34,10 @@ Here the appointment class written in Java:
 	
 		String name;
 		Date date;
-		Time beginTime;
-		Address destination;
-		Address departure;
-		Time departureTime;
-		float arrivalTime;
-		float duration;
+		Time time;
+		Place place;
+		Time arrivalTime;
+		Time duration;
 		Travel travel;
 	}
 		
@@ -54,8 +50,7 @@ The travel class has the following attributes:
 	\item The related appointment;
 	\item The departure point;
 	\item The destination point;
-	\item The travel type;
-	\item The weather conditions;
+	\item The desired time to leave;
 	\item The movements list in which the travel is split;
 \end{itemize}
 
@@ -64,10 +59,9 @@ Here the travel class written in Java:
 	public class Travel {
 	
 		Appointment appointment;
-		Address departure;
-		Address destination;
-		TravelType travelType;
-		Weather weatherConditions;
+		Place placeOfDeparture;
+		Place placeOfArrival;
+		Time departureTime;
 		ArrayList<Movement> movements;
 	}
 \end{lstlisting}
@@ -80,18 +74,16 @@ The movement class has the following attributes:
 	\item The destination point;
 	\item The estimated time;
 	\item The time of departure;
-	\item The movement type;
 \end{itemize}
 
 Here the movement class written in Java:
 \begin{lstlisting}[language=Java]
 	public class Movement {
 		
-		Address departure;
-		Address destination;
-		TravelType travelType;
+		Place placeOfDeparture;
+		Place placeOfArrival;
 		Time estimatedTime;
-		Time departureTime;
+		Time timeOfDeparture;
 	}
 \end{lstlisting}
 
