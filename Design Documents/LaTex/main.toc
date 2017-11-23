@@ -1,0 +1,44 @@
+\contentsline {section}{Table of Contents}{3}{table.caption.3}
+\contentsline {section}{List of Figures}{5}{section*.4}
+\contentsline {section}{\numberline {1}Introduction}{6}{section.1}
+\contentsline {subsection}{\numberline {1.1}Purpose}{6}{subsection.1.1}
+\contentsline {subsection}{\numberline {1.2}Scope}{6}{subsection.1.2}
+\contentsline {subsection}{\numberline {1.3}Definitions, Acronyms, Abbreviations}{6}{subsection.1.3}
+\contentsline {subsubsection}{\numberline {1.3.1}Definitions}{6}{subsubsection.1.3.1}
+\contentsline {subsubsection}{\numberline {1.3.2}Acronyms}{6}{subsubsection.1.3.2}
+\contentsline {subsubsection}{\numberline {1.3.3}Abbreviations}{6}{subsubsection.1.3.3}
+\contentsline {subsection}{\numberline {1.4}Document structure}{6}{subsection.1.4}
+\contentsline {section}{\numberline {2}Architectural design}{7}{section.2}
+\contentsline {subsection}{\numberline {2.1}Overview: High-level components and their interaction}{7}{subsection.2.1}
+\contentsline {subsection}{\numberline {2.2}Component view}{7}{subsection.2.2}
+\contentsline {subsection}{\numberline {2.3}Deployment view}{7}{subsection.2.3}
+\contentsline {subsection}{\numberline {2.4}Runtime view}{7}{subsection.2.4}
+\contentsline {subsection}{\numberline {2.5}Component interfaces}{7}{subsection.2.5}
+\contentsline {subsection}{\numberline {2.6}Selected architectural styles and patterns}{7}{subsection.2.6}
+\contentsline {section}{\numberline {3}Algorithm design}{8}{section.3}
+\contentsline {subsection}{\numberline {3.1}Object class}{8}{subsection.3.1}
+\contentsline {subsubsection}{\numberline {3.1.1}Appointment class}{8}{subsubsection.3.1.1}
+\contentsline {subsubsection}{\numberline {3.1.2}Travel class}{9}{subsubsection.3.1.2}
+\contentsline {subsubsection}{\numberline {3.1.3}Movement class}{9}{subsubsection.3.1.3}
+\contentsline {subsection}{\numberline {3.2}Algorithms}{9}{subsection.3.2}
+\contentsline {subsubsection}{\numberline {3.2.1}Create flexible appointment}{9}{subsubsection.3.2.1}
+\contentsline {subsubsection}{\numberline {3.2.2}Compute travel}{9}{subsubsection.3.2.2}
+\contentsline {subsubsection}{\numberline {3.2.3}View daily schedule}{10}{subsubsection.3.2.3}
+\contentsline {subsubsection}{\numberline {3.2.4}Check overlap}{11}{subsubsection.3.2.4}
+\contentsline {subsubsection}{\numberline {3.2.5}Check unreachability}{11}{subsubsection.3.2.5}
+\contentsline {subsubsection}{\numberline {3.2.6}Check travel alternative}{11}{subsubsection.3.2.6}
+\contentsline {subsubsection}{\numberline {3.2.7}Check movement alternative}{12}{subsubsection.3.2.7}
+\contentsline {section}{\numberline {4}User interface design}{14}{section.4}
+\contentsline {subsection}{\numberline {4.1}Registration/Login}{14}{subsection.4.1}
+\contentsline {subsection}{\numberline {4.2}Calendar views}{15}{subsection.4.2}
+\contentsline {subsection}{\numberline {4.3}Create new appointment}{16}{subsection.4.3}
+\contentsline {subsection}{\numberline {4.4}Edit existing appointment}{17}{subsection.4.4}
+\contentsline {subsection}{\numberline {4.5}manage preferences}{18}{subsection.4.5}
+\contentsline {subsection}{\numberline {4.6}View daily schedule and travel/movement details}{19}{subsection.4.6}
+\contentsline {subsection}{\numberline {4.7}Buy and view tickets}{20}{subsection.4.7}
+\contentsline {section}{\numberline {5}Requirements traceability}{21}{section.5}
+\contentsline {section}{\numberline {6}Implementation, integration and test plan}{22}{section.6}
+\contentsline {subsection}{\numberline {6.1}Overview}{22}{subsection.6.1}
+\contentsline {subsection}{\numberline {6.2}Strategy}{22}{subsection.6.2}
+\contentsline {subsection}{\numberline {6.3}Dependecies}{22}{subsection.6.3}
+\contentsline {section}{\numberline {7}Effort spent}{25}{section.7}
