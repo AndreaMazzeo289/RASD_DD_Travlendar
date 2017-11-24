@@ -42,3 +42,6 @@
 \contentsline {subsection}{\numberline {6.2}Strategy}{25}{subsection.6.2}
 \contentsline {subsection}{\numberline {6.3}Dependecies}{25}{subsection.6.3}
 \contentsline {section}{\numberline {7}Effort spent}{28}{section.7}
+\contentsline {subsubsection}{\numberline {7.0.1}Andrea Mafessoni}{28}{subsubsection.7.0.1}
+\contentsline {subsubsection}{\numberline {7.0.2}Andrea Mazzeo}{29}{subsubsection.7.0.2}
+\contentsline {subsubsection}{\numberline {7.0.3}Daniele Moltisanti}{30}{subsubsection.7.0.3}
