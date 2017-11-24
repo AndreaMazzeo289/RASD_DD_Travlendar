@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (MiKTeX 2.9.6350 64-bit) (preloaded format=pdflatex 2017.10.23)  23 NOV 2017 21:53
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (MiKTeX 2.9.6350 64-bit) (preloaded format=pdflatex 2017.10.23)  24 NOV 2017 17:35
 entering extended mode
 **./main.tex
 (main.tex
@@ -1307,20 +1307,21 @@ File: lstlang1.sty 2015/06/04 1.6 listings language file
 ) [8
 
 ] [9]
-Overfull \hbox (133.54138pt too wide) in paragraph at lines 155--158
+[10]
+Overfull \hbox (133.54138pt too wide) in paragraph at lines 172--175
 [] \T1/ptm/b/n/10.95 end if\T1/ptm/m/sc/10.95 computeTravel\T1/ptm/m/n/10.95 (a
 ppointment-i,appointment-i.travel.placeOfDeparture, appoinment-i.travel.departu
 reTime,preferences)
  []
 
-[10] <Images/TravelAlternatives.png, id=330, 247.52475pt x 65.043pt>
+<Images/TravelAlternatives.png, id=326, 247.52475pt x 65.043pt>
 File: Images/TravelAlternatives.png Graphic file (type png)
 
 <use Images/TravelAlternatives.png>
-Package pdftex.def Info: Images/TravelAlternatives.png used on input line 198.
+Package pdftex.def Info: Images/TravelAlternatives.png used on input line 216.
 (pdftex.def)             Requested size: 227.62206pt x 59.81447pt.
- [11 <./Images/TravelAlternatives.png>]
-[12]) [13] (Files/UserInterfaceDesign.tex
+ [11] [12 <./Images/TravelAlternatives.png>]) [13] (Files/UserInterfaceDesign.t
+ex
 <Images/UI/LogIn.PNG, id=351, 963.6pt x 542.025pt>
 File: Images/UI/LogIn.PNG Graphic file (type png)
  <use Images/UI/LogIn.PNG>
@@ -1360,7 +1361,7 @@ Package pdftex.def Info: Images/UI/Edit.PNG used on input line 32.
 File: Images/UI/Preferences.PNG Graphic file (type png)
 
 <use Images/UI/Preferences.PNG>
-Package pdftex.def Info: Images/UI/Preferences.PNG used on input line 40.
+Package pdftex.def Info: Images/UI/Preferences.PNG used on input line 41.
 (pdftex.def)             Requested size: 637.33897pt x 358.51503pt.
  [18
 
@@ -1369,7 +1370,7 @@ Package pdftex.def Info: Images/UI/Preferences.PNG used on input line 40.
 File: Images/UI/Schedule.PNG Graphic file (type png)
 
 <use Images/UI/Schedule.PNG>
-Package pdftex.def Info: Images/UI/Schedule.PNG used on input line 49.
+Package pdftex.def Info: Images/UI/Schedule.PNG used on input line 50.
 (pdftex.def)             Requested size: 637.33897pt x 358.51503pt.
  [19
 
@@ -1377,38 +1378,44 @@ Package pdftex.def Info: Images/UI/Schedule.PNG used on input line 49.
 <Images/UI/Ticket.PNG, id=382, 963.6pt x 542.025pt>
 File: Images/UI/Ticket.PNG Graphic file (type png)
  <use Images/UI/Ticket.PNG>
-Package pdftex.def Info: Images/UI/Ticket.PNG used on input line 58.
+Package pdftex.def Info: Images/UI/Ticket.PNG used on input line 59.
 (pdftex.def)             Requested size: 637.33897pt x 358.51503pt.
 
 [20
 
- <./Images/UI/Ticket.PNG>]) (Files/RequirementsTraceability.tex) [21
+ <./Images/UI/Ticket.PNG>]) (Files/RequirementsTraceability.tex [21
 
 
 ]
-(Files/TestPlan.tex <Images/Test/1.png, id=391, 380.17032pt x 181.42781pt>
-File: Images/Test/1.png Graphic file (type png)
+Overfull \hbox (1.54184pt too wide) in paragraph at lines 48--50
+\T1/ptm/m/n/10.95 The sys-tem is pro-vided with al-go-rithm for over-lap-ping c
+heck-ing and flex-i-ble ap-point-ments schedul-
+ []
 
-<use Images/Test/1.png>
+[22] [23]) [24] (Files/TestPlan.tex
+<Images/Test/1.png, id=448, 380.17032pt x 181.42781pt>
+File: Images/Test/1.png Graphic file (type png)
+ <use Images/Test/1.png>
 Package pdftex.def Info: Images/Test/1.png used on input line 30.
 (pdftex.def)             Requested size: 227.62206pt x 108.63051pt.
- [22
+
+[25
 
  <./Images/Test/1.png>]
-<Images/Test/2.png, id=398, 551.81157pt x 199.49532pt>
+<Images/Test/2.png, id=456, 551.81157pt x 199.49532pt>
 File: Images/Test/2.png Graphic file (type png)
  <use Images/Test/2.png>
 Package pdftex.def Info: Images/Test/2.png used on input line 37.
 (pdftex.def)             Requested size: 227.62206pt x 82.29282pt.
 
-<Images/Test/3.png, id=399, 324.46219pt x 258.21469pt>
+<Images/Test/3.png, id=457, 324.46219pt x 258.21469pt>
 File: Images/Test/3.png Graphic file (type png)
  <use Images/Test/3.png>
 Package pdftex.def Info: Images/Test/3.png used on input line 44.
 (pdftex.def)             Requested size: 227.62206pt x 181.15092pt.
 
-[23 <./Images/Test/2.png> <./Images/Test/3.png>]) [24] (Files/EffortSpent.tex)
-[25
+[26 <./Images/Test/2.png> <./Images/Test/3.png>]) [27] (Files/EffortSpent.tex)
+[28
 
 ]
 Package atveryend Info: Empty hook `BeforeClearDocument' on input line 118.
@@ -1421,10 +1428,10 @@ Package rerunfilecheck Info: File `main.out' has not changed.
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 118.
  ) 
 Here is how much of TeX's memory you used:
- 22614 strings out of 493323
- 403128 string characters out of 3139065
- 488558 words of memory out of 3000000
- 25548 multiletter control sequences out of 15000+200000
+ 22633 strings out of 493323
+ 403503 string characters out of 3139065
+ 489429 words of memory out of 3000000
+ 25564 multiletter control sequences out of 15000+200000
  38502 words of font info for 57 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
  59i,21n,65p,827b,1120s stack positions out of 5000i,500n,10000p,200000b,50000s
@@ -1432,9 +1439,9 @@ Here is how much of TeX's memory you used:
 KTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Program Files/MiKTeX 2.9
 /fonts/type1/urw/times/utmb8a.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/urw/
 times/utmr8a.pfb>
-Output written on main.pdf (25 pages, 690720 bytes).
+Output written on main.pdf (28 pages, 710099 bytes).
 PDF statistics:
- 458 PDF objects out of 1000 (max. 8388607)
- 127 named destinations out of 1000 (max. 500000)
+ 515 PDF objects out of 1000 (max. 8388607)
+ 130 named destinations out of 1000 (max. 500000)
  430 words of extra memory for PDF output out of 10000 (max. 10000000)
 

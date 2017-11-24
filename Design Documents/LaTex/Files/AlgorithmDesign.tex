@@ -88,11 +88,28 @@ Here the movement class written in Java:
 \end{lstlisting}
 
 \subsection{Algorithms}
-
+\label{subsec:algorithm}
 \subsubsection{Create flexible appointment}
+\label{subsec:algFlexibleAppointment}
+When the user wants to schedule a flexible appointment, the system calls the follow function that controls if it is possible to create the appointment in the time range inserted
+If it is possible, means that no further appointments are between the inserted range and therfore the appointment is created, else the system shows to the user an error message.
+
+\begin{algorithmic}
+	\Function{createFlexibleAppointment}{initRange, endRange, duration}
+		\If{endRange-initRange < duration}
+			\State \Call {notifyUser}{"Impossible to create flexible appointment"}
+			\State \Return impossible
+		\ElsIf{exists appointment between initRange and initRange+duration}
+			\State \Call{createFlexibleAppointment}{appointment.time+appointment.duration, endRange, duration}
+		\Else
+			\State \Return \Call{createAppointment}{...}
+		\EndIf
+	\EndFunction
+	
+\end{algorithmic}
 
 \subsubsection{Compute travel}
-
+\label{subsec:algComputeTravel}
 The function computeTravel is used to create a new travel for a specific appointment.
 The followed procedure is composed by four steps:
 \begin{enumerate}
@@ -127,7 +144,7 @@ The followed procedure is composed by four steps:
 
 
 \subsubsection{View daily schedule}
-
+\label{subsec:algSchedule}
 When the user clicks on view daily schedule button, the system computes the daily schedule through this function and show to the user all appointments expected for the selected day and all travel to reach them.
 This method has only one parameter, the day desired to compute the schedule.\\
 The function is composed by four steps:
@@ -159,7 +176,7 @@ The function is composed by four steps:
 \end{algorithmic}
 
 \subsubsection{Check overlap}
-
+\label{subsec:algOverlap}
 When the system has to check the overlapping between two appointments invokes this function that has as parameter the two appointments.
 The function controls which appointment starts before and then controls if the begin time of the second appointment overlaps with end time of the first appointment.
 
@@ -176,7 +193,7 @@ The function controls which appointment starts before and then controls if the b
 \end{algorithmic}
 
 \subsubsection{Check unreachability}
-
+\label{subsec:algUnreachable}
 This function checks the unreachability of one appointment passed as parameter.
 To check the unreachability it is necessary to control if the arrival time of one appointment is compatible with departure time added to estimated travel time.
 
@@ -192,6 +209,7 @@ To check the unreachability it is necessary to control if the arrival time of on
 \end{algorithmic}
 
 \subsubsection{Check travel alternative}
+\label{subsec:algTravelAlternative}
 The user can check all available travel alternatives and modify the actual one with another. This is possible switching the different alternatives.
 \begin{figure}[!h]
 	\centering
@@ -239,6 +257,7 @@ The user can check all available travel alternatives and modify the actual one w
 \end{algorithmic}
 
 \subsubsection{Check movement alternative}
+\label{subsec:algMovementAlternative}
 When the user views a movement details and clicks on a "means icon" from the bar, the system calls this function that read the movement type selected and computed the relative movement.	
 \\ If the user selects 'car-sharing' or 'bike-sharing' it is added a new movement to reach the car or bike.
 
