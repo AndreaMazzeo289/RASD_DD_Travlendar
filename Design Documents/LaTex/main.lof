@@ -1,10 +1,19 @@
-\contentsline {figure}{\numberline {1}{\ignorespaces User Interface: registration and login\relax }}{14}{figure.caption.7}
-\contentsline {figure}{\numberline {2}{\ignorespaces User Interface: calendar views and menu\relax }}{15}{figure.caption.8}
-\contentsline {figure}{\numberline {3}{\ignorespaces User Interface: creation of new appointment\relax }}{16}{figure.caption.9}
-\contentsline {figure}{\numberline {4}{\ignorespaces User Interface: edit of an existing appointment\relax }}{17}{figure.caption.10}
-\contentsline {figure}{\numberline {5}{\ignorespaces User Interface: manage preferences\relax }}{18}{figure.caption.11}
-\contentsline {figure}{\numberline {6}{\ignorespaces User Interface: daily schedule and travel/movement details\relax }}{19}{figure.caption.12}
-\contentsline {figure}{\numberline {7}{\ignorespaces User Interface: buy ticket and 'My tickets' section\relax }}{20}{figure.caption.13}
-\contentsline {figure}{\numberline {8}{\ignorespaces Gantt diagram Mafessoni\relax }}{28}{figure.caption.18}
-\contentsline {figure}{\numberline {9}{\ignorespaces Gantt diagram Mazzeo\relax }}{29}{figure.caption.20}
-\contentsline {figure}{\numberline {10}{\ignorespaces Gantt diagram Moltisanti\relax }}{30}{figure.caption.22}
+\contentsline {figure}{\numberline {1}{\ignorespaces System overview\relax }}{8}{figure.caption.6}
+\contentsline {figure}{\numberline {2}{\ignorespaces Component diagram 1\relax }}{8}{figure.caption.7}
+\contentsline {figure}{\numberline {3}{\ignorespaces Component diagram 2\relax }}{9}{figure.caption.8}
+\contentsline {figure}{\numberline {4}{\ignorespaces Deployment diagram\relax }}{9}{figure.caption.9}
+\contentsline {figure}{\numberline {5}{\ignorespaces Runtime view: user login\relax }}{10}{figure.caption.10}
+\contentsline {figure}{\numberline {6}{\ignorespaces Runtime view: appointment creation\relax }}{11}{figure.caption.11}
+\contentsline {figure}{\numberline {7}{\ignorespaces Runtime view: scheduling travel\relax }}{12}{figure.caption.12}
+\contentsline {figure}{\numberline {8}{\ignorespaces Runtime view: ticket payment\relax }}{13}{figure.caption.13}
+\contentsline {figure}{\numberline {9}{\ignorespaces Component interface\relax }}{14}{figure.caption.14}
+\contentsline {figure}{\numberline {10}{\ignorespaces User Interface: registration and login\relax }}{22}{figure.caption.16}
+\contentsline {figure}{\numberline {11}{\ignorespaces User Interface: calendar views and menu\relax }}{23}{figure.caption.17}
+\contentsline {figure}{\numberline {12}{\ignorespaces User Interface: creation of new appointment\relax }}{24}{figure.caption.18}
+\contentsline {figure}{\numberline {13}{\ignorespaces User Interface: edit of an existing appointment\relax }}{25}{figure.caption.19}
+\contentsline {figure}{\numberline {14}{\ignorespaces User Interface: manage preferences\relax }}{26}{figure.caption.20}
+\contentsline {figure}{\numberline {15}{\ignorespaces User Interface: daily schedule and travel/movement details\relax }}{27}{figure.caption.21}
+\contentsline {figure}{\numberline {16}{\ignorespaces User Interface: buy ticket and 'My tickets' section\relax }}{28}{figure.caption.22}
+\contentsline {figure}{\numberline {17}{\ignorespaces Gantt diagram Mafessoni\relax }}{36}{figure.caption.27}
+\contentsline {figure}{\numberline {18}{\ignorespaces Gantt diagram Mazzeo\relax }}{37}{figure.caption.29}
+\contentsline {figure}{\numberline {19}{\ignorespaces Gantt diagram Moltisanti\relax }}{38}{figure.caption.31}

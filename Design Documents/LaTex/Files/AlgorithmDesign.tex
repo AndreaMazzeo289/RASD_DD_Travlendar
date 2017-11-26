@@ -1,6 +1,7 @@
-In the following paragraph are presented the most relevant and significant algorithm used in Travlendar+ application.
+In the following paragraph are presented the most relevant and significant algorithm used in Travlendar+ application.\\
 More specifically are described the following algorithm:
 \begin{itemize}
+	\item Create flexible appointment;
 	\item Compute travel;
 	\item View daily schedule;
 	\item Check appointments overlapping;
@@ -91,7 +92,7 @@ Here the movement class written in Java:
 \label{subsec:algorithm}
 \subsubsection{Create flexible appointment}
 \label{subsec:algFlexibleAppointment}
-When the user wants to schedule a flexible appointment, the system calls the follow function that controls if it is possible to create the appointment in the time range inserted
+When the user wants to schedule a flexible appointment, the system calls the follow function that controls if it is possible to create the appointment in the time range inserted.\\
 If it is possible, means that no further appointments are between the inserted range and therfore the appointment is created, else the system shows to the user an error message.
 
 \begin{algorithmic}
@@ -114,9 +115,9 @@ The function computeTravel is used to create a new travel for a specific appoint
 The followed procedure is composed by four steps:
 \begin{enumerate}
 	\item Read the different information from the appointment passed as parameters.
-	\item Call the function queryMaps. this uses Google Maps API to compute the travel, the response is JSON object and the function parse this and extracts all information related to the computed travel.
+	\item Call the function queryMaps. this uses Maps APIs to compute the travel, the response is JSON object and the function parses this and extracts all information related to the computed travel.
 	\item For each steps, which put together with the other steps produces the travel, is created a new Movement and it is added to MovementList presents in Travel class.
-	\item Call the function computeWeatherCondition, that with specific API can compute the weather condition, and if the travel includes some walking or bicycling movement and it is expected 'rain', the system shows to the user a message.
+	\item Call the function computeWeatherCondition, that with specific APIs can compute the weather condition, and if the travel includes some walking or bicycling movement and it is expected 'rain', the system shows to the user a message.
 \end{enumerate}
 
 \begin{algorithmic}
@@ -145,7 +146,7 @@ The followed procedure is composed by four steps:
 
 \subsubsection{View daily schedule}
 \label{subsec:algSchedule}
-When the user clicks on view daily schedule button, the system computes the daily schedule through this function and show to the user all appointments expected for the selected day and all travel to reach them.
+When the user clicks on view daily schedule button, the system computes the daily schedule through this function and shows to the user all appointments expected for the selected day and all travel to reach them.
 This method has only one parameter, the day desired to compute the schedule.\\
 The function is composed by four steps:
 \begin{enumerate}
@@ -195,7 +196,7 @@ The function controls which appointment starts before and then controls if the b
 \subsubsection{Check unreachability}
 \label{subsec:algUnreachable}
 This function checks the unreachability of one appointment passed as parameter.
-To check the unreachability it is necessary to control if the arrival time of one appointment is compatible with departure time added to estimated travel time.
+To check the unreachability it is necessary to control if the arrival time is compatible with departure time added to estimated travel time.
 
 \begin{algorithmic}
 	
@@ -221,7 +222,7 @@ The user can check all available travel alternatives and modify the actual one w
 	\item There is a control on a travel type selected from the user and there are two possible cases:
 		\begin{enumerate}
 			\item 'only-own-car' or 'only-public-transport' or 'green:
-				when one these travel type is selected, it is created a new travel alternative based on related travel mode (driving for only-own-car, transit for only-public-transport and bicycling for green).
+				when one of these travel type is selected, it is created a new travel alternative based on related travel mode (driving for only-own-car, transit for only-public-transport and bicycling for green).
 			\item 'faster' or 'cheaper':  in this case, it is created a set that contains all possible travel computable.
 		\end{enumerate}
 	\item Then it is selected the travel alternative:

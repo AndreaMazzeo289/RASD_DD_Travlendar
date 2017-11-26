@@ -1,12 +1,50 @@
 \subsection{Purpose}
-The purpose of this document is to describe the architecture of the Travlendar+ system.
-It provide more technical details that the RASD.
+This document represents the Design Document (DD). Aim of this paper is to provide an overview of the structure of the system, in terms of general architecture, interaction of the components and inner functionalities. The document contains detailed information about the main algorithms and patterns used into the system, info on the interfaces of the different components and a schema of their connections in the runtime views. Plus, it establishes a connection with the RASD document, specifying how the requirements of the system match with the actual design of the application. 
 
 \subsection{Scope}
-
+The application intended to be developed is a mobile app for Android smartphones named Travlendar+.
+The application aims to provided a calendar-based system, in which the user is allowed to insert and
+check his daily appointments and is supported during the travels to reach the provided meeting locations.
+The app is required to be more than a simple virtual calendar: it has to autonomously manage the different
+travel alternatives and collect information about external weather condition and availability of public
+transport in order to provide the user with a detailed schedule of his daily trips. The system must require
+the user to insert only the essential data for the appointment creation and must take care of everything
+concerns the travel organization, giving at the same time to the user the possibility of arrange differences
+travel preferences and switch between the possible travel alternatives. Plus, it must be open to advanced
+settings, allowing the user to create flexible and repeatable appointments or offering the functionality of
+adding alerts to remind each event. Travlendar+ also aims to implement a ticket-manager system: trough
+the application it must be possible to buy public transport tickets and view them when needed.
 
 \subsection{Definitions, Acronyms, Abbreviations}
-\subsubsection{Definitions}
 \subsubsection{Acronyms}
-\subsubsection{Abbreviations}
+\begin{itemize}
+	\item \textbf{DD}: Design Document;
+	\item \textbf{RASD}: Requirements Analisys and Specification Document;
+	\item \textbf{API}: Application Programming Interface;
+	\item \textbf{JSON}: JavaScript Object Notation;
+	\item \textbf{DBMS}: Database Management System;
+	\item \textbf{JEE}: Java Enterprise Edition;
+	\item \textbf{GUI}: Graphic User Interface;
+	\item \textbf{RMI}: Remote Method Invocation;
+	\item \textbf{JRMP}: Java Remote Method Protocol;
+	\item \textbf{JDBC}: Java DataBase Connectivity;
+\end{itemize}
+
 \subsection{Document structure}
+\begin{enumerate}
+	\item \textbf{Introduction}\\
+		This section has a purpose to introduce the design document. 
+	\item \textbf{Architectural design}\\
+		This section shows the system architecture. Starts from a first overview where are explained, in general terms, the system components and their relationships.
+		After the general introduction, are showed in details all components, showing their functionality and deployment.
+		The last topic of this section focuses on the main architectural styles and patterns used in the design of the system. 
+	\item \textbf{Algorithm design}\\
+		This section focuses on the functioning of the system viewed from algorithms point of view. Are showed only the most important and significant functions.
+		The first section is dedicated to explain which data structures are used and the second describes the algorithms by means of pseudocode.
+	\item \textbf{User interface design}\\
+		This section describes the different system functionality by means the mockup.  
+	\item \textbf{Implementation, integration and test plan}\\
+		This section focuses on the intention to define a test plan that aims to test all the different system components.
+	\item \textbf{Effort spent}\\
+		The last section shows the effort spent by each component to make design document.
+\end{enumerate}
