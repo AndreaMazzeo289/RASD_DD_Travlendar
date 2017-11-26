@@ -43,7 +43,7 @@
 \contentsline {subsection}{\numberline {6.1}Overview}{33}{subsection.6.1}
 \contentsline {subsection}{\numberline {6.2}Strategy}{33}{subsection.6.2}
 \contentsline {subsection}{\numberline {6.3}Dependecies}{33}{subsection.6.3}
-\contentsline {section}{\numberline {7}Effort spent}{36}{section.7}
-\contentsline {subsubsection}{\numberline {7.0.1}Andrea Mafessoni}{36}{subsubsection.7.0.1}
-\contentsline {subsubsection}{\numberline {7.0.2}Andrea Mazzeo}{37}{subsubsection.7.0.2}
-\contentsline {subsubsection}{\numberline {7.0.3}Daniele Moltisanti}{38}{subsubsection.7.0.3}
+\contentsline {section}{\numberline {7}Effort spent}{37}{section.7}
+\contentsline {subsubsection}{\numberline {7.0.1}Andrea Mafessoni}{37}{subsubsection.7.0.1}
+\contentsline {subsubsection}{\numberline {7.0.2}Andrea Mazzeo}{38}{subsubsection.7.0.2}
+\contentsline {subsubsection}{\numberline {7.0.3}Daniele Moltisanti}{39}{subsubsection.7.0.3}

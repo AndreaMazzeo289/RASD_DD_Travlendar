@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (MiKTeX 2.9.6350 64-bit) (preloaded format=pdflatex 2017.10.23)  26 NOV 2017 12:02
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (MiKTeX 2.9.6350 64-bit) (preloaded format=pdflatex 2017.10.23)  26 NOV 2017 12:47
 entering extended mode
 **./main.tex
 (main.tex
@@ -1515,62 +1515,65 @@ heck-ing and flex-i-ble ap-point-ments schedul-
 File: Images/Test/1.png Graphic file (type png)
  <use Images/Test/1.png>
 Package pdftex.def Info: Images/Test/1.png used on input line 30.
-(pdftex.def)             Requested size: 227.62206pt x 108.63051pt.
+(pdftex.def)             Requested size: 409.71692pt x 195.53493pt.
 
 [33
 
- <./Images/Test/1.png>]
-<Images/Test/2.png, id=563, 551.81157pt x 199.49532pt>
+] <Images/Test/2.png, id=561, 551.81157pt x 199.49532pt>
 File: Images/Test/2.png Graphic file (type png)
- <use Images/Test/2.png>
+
+<use Images/Test/2.png>
 Package pdftex.def Info: Images/Test/2.png used on input line 37.
-(pdftex.def)             Requested size: 227.62206pt x 82.29282pt.
-
-<Images/Test/3.png, id=564, 324.46219pt x 258.21469pt>
+(pdftex.def)             Requested size: 455.24411pt x 164.59174pt.
+ <Images/Test/3.png, id=562, 324.46219pt x 258.21469pt>
 File: Images/Test/3.png Graphic file (type png)
- <use Images/Test/3.png>
-Package pdftex.def Info: Images/Test/3.png used on input line 44.
-(pdftex.def)             Requested size: 227.62206pt x 181.15092pt.
 
-[34 <./Images/Test/2.png> <./Images/Test/3.png>]) [35] (Files/EffortSpent.tex
+<use Images/Test/3.png>
+Package pdftex.def Info: Images/Test/3.png used on input line 44.
+(pdftex.def)             Requested size: 364.19667pt x 289.85646pt.
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [34 <./Images/Test/1.png> <./Images/Test/2.png>] [35 <./Images/Test/3.png>]) [
+36]
+(Files/EffortSpent.tex
 
 Package hyperref Warning: Difference (2) between bookmark levels is greater 
 (hyperref)                than one, level fixed on input line 2.
 
-<Images/Gantt/effortSpentMafset.png, id=577, 898.0752pt x 226.446pt>
-File: Images/Gantt/effortSpentMafset.png Graphic file (type png)
+<Images/Gantt/andreaMafessoni.png, id=581, 922.647pt x 251.0178pt>
+File: Images/Gantt/andreaMafessoni.png Graphic file (type png)
 
-<use Images/Gantt/effortSpentMafset.png>
-Package pdftex.def Info: Images/Gantt/effortSpentMafset.png used on input line 
-21.
-(pdftex.def)             Requested size: 546.29153pt x 137.74486pt.
- [36
-
- <./Images/Gantt/effortSpentMafset.png>] <Images/Gantt/effortSpentMazze.png, id
-=584, 944.328pt x 275.5896pt>
-File: Images/Gantt/effortSpentMazze.png Graphic file (type png)
-
-<use Images/Gantt/effortSpentMazze.png>
-Package pdftex.def Info: Images/Gantt/effortSpentMazze.png used on input line 4
-6.
-(pdftex.def)             Requested size: 546.29153pt x 159.42996pt.
+<use Images/Gantt/andreaMafessoni.png>
+Package pdftex.def Info: Images/Gantt/andreaMafessoni.png used on input line 22
+.
+(pdftex.def)             Requested size: 546.29153pt x 148.62778pt.
  [37
 
- <./Images/Gantt/effortSpentMazze.png>]
-Overfull \hbox (12.02563pt too wide) in paragraph at lines 54--68
+ <./Images/Gantt/andreaMafessoni.png>] <Images/Gantt/andreaMazzeo.png, id=589, 
+944.328pt x 275.5896pt>
+File: Images/Gantt/andreaMazzeo.png Graphic file (type png)
+
+<use Images/Gantt/andreaMazzeo.png>
+Package pdftex.def Info: Images/Gantt/andreaMazzeo.png used on input line 47.
+(pdftex.def)             Requested size: 546.29153pt x 159.42996pt.
+ [38
+
+ <./Images/Gantt/andreaMazzeo.png>]
+Overfull \hbox (12.02563pt too wide) in paragraph at lines 55--69
 [][] 
  []
 
-<Images/Gantt/effortSpentDaniele.png, id=592, 909.1566pt x 293.898pt>
-File: Images/Gantt/effortSpentDaniele.png Graphic file (type png)
+<Images/Gantt/danieleMoltisanti.png, id=596, 909.1566pt x 293.898pt>
+File: Images/Gantt/danieleMoltisanti.png Graphic file (type png)
 
-<use Images/Gantt/effortSpentDaniele.png>
-Package pdftex.def Info: Images/Gantt/effortSpentDaniele.png used on input line
- 72.
+<use Images/Gantt/danieleMoltisanti.png>
+Package pdftex.def Info: Images/Gantt/danieleMoltisanti.png used on input line 
+73.
 (pdftex.def)             Requested size: 546.29153pt x 176.60025pt.
- [38
+ [39
 
- <./Images/Gantt/effortSpentDaniele.png>])
+ <./Images/Gantt/danieleMoltisanti.png>])
 Package atveryend Info: Empty hook `BeforeClearDocument' on input line 118.
 Package atveryend Info: Empty hook `AfterLastShipout' on input line 118.
  (main.aux)
@@ -1581,8 +1584,8 @@ Package rerunfilecheck Info: File `main.out' has not changed.
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 118.
  ) 
 Here is how much of TeX's memory you used:
- 22741 strings out of 493323
- 406415 string characters out of 3139065
+ 22742 strings out of 493323
+ 406387 string characters out of 3139065
  490086 words of memory out of 3000000
  25619 multiletter control sequences out of 15000+200000
  41350 words of font info for 59 fonts, out of 3000000 for 9000
@@ -1593,9 +1596,9 @@ KTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Program Files/MiKTeX 2.9
 /fonts/type1/urw/times/utmb8a.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/urw/
 times/utmr8a.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/urw/times/utmri8a.pfb
 >
-Output written on main.pdf (38 pages, 1313701 bytes).
+Output written on main.pdf (39 pages, 1316055 bytes).
 PDF statistics:
- 652 PDF objects out of 1000 (max. 8388607)
- 166 named destinations out of 1000 (max. 500000)
+ 656 PDF objects out of 1000 (max. 8388607)
+ 167 named destinations out of 1000 (max. 500000)
  530 words of extra memory for PDF output out of 10000 (max. 10000000)
 
